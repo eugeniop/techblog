@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+.vite/
+
+# Local server environment
+.env.local
+.env.*.local
+
+# Optional cache
+.cache/
+.tmp/
+
+# macOS system files
+.DS_Store
+
+# VSCode settings (optional)
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Posts output (optional: only if you generate this at build)
+public/posts/posts.json
+public/rss.xml
+
+
