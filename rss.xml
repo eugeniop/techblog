@@ -5,7 +5,7 @@
   <link>https://yourdomain.com</link>
   <description>A blog about Latin travel</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 07 Jun 2025 00:36:30 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 07 Jun 2025 00:41:37 GMT</lastBuildDate>
   
   <item>
     <title><![CDATA[Welcome!]]></title>
@@ -297,7 +297,7 @@
     <link>https://yourdomain.com/post/2019-06-21-experiments-with-e-paper-displays</link>
     <pubDate>Fri, 21 Jun 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>Our board member <a href="https://twitter.com/pvh">Peter Van Hardenberg</a> got me intrigued on e-Paper displays. So I went to <a href="http://adafruit.com">Adafruit</a> to check what was available for the <a href="https://www.adafruit.com/product/3010">Feather M0</a>. I figured it would be a nice extension to [my original printer project]({% post_url 2019-04-14-calling-secure-apis-from-arduino-part-i %}), to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.</p>]]></description>
+    <description><![CDATA[<p>Our board member <a href="https://twitter.com/pvh">Peter Van Hardenberg</a> got me intrigued on e-Paper displays. So I went to <a href="http://adafruit.com">Adafruit</a> to check what was available for the <a href="https://www.adafruit.com/product/3010">Feather M0</a>. I figured it would be a nice extension to <a href="/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown">my original printer project</a>, to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2019-06-21-experiments-with-e-paper-displays</guid>
   </item>
 

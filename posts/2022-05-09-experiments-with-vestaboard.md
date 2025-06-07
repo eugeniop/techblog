@@ -168,7 +168,7 @@ module.exports = {
 
 * Bootstrapping here is done manually: I hardcoded the array I called `vestaboards`. 
 * Notice I use `async.reflect`, a neat function I learned about while researching this implementation. 
-* Also notice that the job is exported and plugs into y cronjob framework described [here]({% post_url 2022-04-02-running-scheduled-tasks-in-heroku %}).
+* Also notice that the job is exported and plugs into y cronjob framework described [here](/post/2022-04-02-running-scheduled-tasks-in-heroku.md).
 * The logging infrastructure is pretty primitive (a.k.a. `console.log`)
 * Minimal exception handling
 * No *paging*: paging (for long quotes) is not an issue in Thermal printers. The only limit for a quote length is the amount of paper left. e-Ink displays have limited space, so I implemented a "scrolling" function that will split long quotes into parts and rotate each part over time. None of the logic is implemented in this version for the Vestaboard. So, long quotes are just truncated. 
