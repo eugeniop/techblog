@@ -29,7 +29,7 @@ function PostPage() {
   useEffect(() => {
     const loadPost = async () => {
 
-      const res = await fetch(`/posts/${slug}`)
+      const res = await fetch(`${import.meta.env.BASE_URL}posts/${slug}`)
       const raw = await res.text()
 
       const { attributes: data, body: content } = fm(raw)
@@ -80,7 +80,7 @@ function PostPage() {
         </div>
       )}
       <p className="mt-4">
-        <a href="/" className="text-blue-600 underline">← Home</a>
+        <a href={import.meta.env.BASE_URL} className="text-blue-600 underline">← Home</a>
       </p>
       <div
         className="prose max-w-none"
