@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "postbuild": "cp public/.nojekyll dist/.nojekyll && cp public/posts/posts.json dist/posts/posts.json"
+    "postbuild": "echo > dist/.nojekyll && cp public/posts/posts.json dist/posts/posts.json"
   },
   "dependencies": {
     "buffer": "^6.0.3",

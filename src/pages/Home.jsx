@@ -10,7 +10,7 @@ function Home() {
 
   // Fetch posts.json at runtime
   useEffect(() => {
-    fetch('/posts/posts.json')
+    fetch('posts/posts.json')
       .then((res) => res.json())
       .then((posts) => {
         const sorted = posts
