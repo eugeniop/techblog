@@ -26,7 +26,7 @@ Consider this shape below, with the left one being the projected parallelogram t
 
 Some facts:
 
-**β** is the angle we computed in the [previous post]({% post_url 2019-12-07-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-i %}) which turns out to be ~37.3°.
+**β** is the angle we computed in the [previous post](/post/2019-12-07-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-i.md) which turns out to be ~37.3°.
 
 ![](https://latex.codecogs.com/svg.latex?DA&space;=&space;L&space;.&space;\sqrt{3}&space;/&space;2)
 

@@ -46,7 +46,7 @@ The required demo script was this:
 2. User enters both. 
 3. System validates user and if successful, prompts a menu for other options (e.g. balance, payments, etc.)
 
-Like with the [Alexa sample I wrote about before]({% post_url 2016-11-09-Alexa-Auth0 %}), when possible I like to offload all work to a Webtask where the development experience is massively better: 
+Like with the [Alexa sample I wrote about before](/post/2016-11-09-Alexa-Auth0.markdown), when possible I like to offload all work to a Webtask where the development experience is massively better: 
 
 * A great code editor.
 * Real-time logs for troubleshooting.

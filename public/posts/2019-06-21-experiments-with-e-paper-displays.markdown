@@ -7,7 +7,7 @@ comments: true
 author: Eugenio Pace
 ---
 
-Our board member [Peter Van Hardenberg](https://twitter.com/pvh) got me intrigued on e-Paper displays. So I went to [Adafruit](http://adafruit.com) to check what was available for the [Feather M0](https://www.adafruit.com/product/3010). I figured it would be a nice extension to [my original printer project]({% post_url 2019-04-14-calling-secure-apis-from-arduino-part-i %}), to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.
+Our board member [Peter Van Hardenberg](https://twitter.com/pvh) got me intrigued on e-Paper displays. So I went to [Adafruit](http://adafruit.com) to check what was available for the [Feather M0](https://www.adafruit.com/product/3010). I figured it would be a nice extension to [my original printer project](/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown), to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.
 
 Adafruit has a wide range of e-paper (or e-Ink) displays and one that fits perfectly for the Feather M0. It even comes all set for _plug and play_. Twenty-something dollars and a few days later I received my display, and I set out to work on it in preparation for a few demos I am doing in Buenos Aires.
 

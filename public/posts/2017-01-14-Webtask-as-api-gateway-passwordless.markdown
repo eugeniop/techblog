@@ -23,7 +23,7 @@ The details of how it works are [documented in this article](https://auth0.com/d
 
 And once again, what else could be more convenient than a simple Webtask to act as the go-between your Auth0 account and your transport of choice.
 
-> This is another practical example of [Webtask as a light-weight API gateway]({% post_url 2017-01-01-Webtask-as-api-gateway %}). 
+> This is another practical example of [Webtask as a light-weight API gateway](/post/2017-01-01-Webtask-as-api-gateway.markdown). 
 
 ### 1. Create the API on Webtask
 
