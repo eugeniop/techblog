@@ -1,0 +1,1023 @@
+[
+  {
+    "slug": "2016-11-06-welcome",
+    "title": "Welcome!",
+    "date": "2016-11-06T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "general"
+    ],
+    "visible": true,
+    "excerpt": "<p>Hi! Welcome to my tech blog. I'm usually working on multiple projects at the same time. This is the place I'm planning on using to publish about them.</p>",
+    "excerptPlain": "Hi! Welcome to my tech blog. I'm usually working on multiple projects at the same time. This is the place I'm planning on using to publish about them.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2016-11-07-AWS-IoT-button",
+    "title": "Trying out AWS IoT Button",
+    "date": "2016-11-07T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "iot"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2016-11-09-Alexa-Auth0",
+    "title": "Building Secure Alexa Skills - Part I",
+    "date": "2016-11-09T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "alexa"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2016-11-19-Alexa-Auth0-II",
+    "title": "Building Secure Alexa Skills - Part II",
+    "date": "2016-11-19T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "alexa",
+      "auth0"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2016-11-25-Building-a-simple-data-capturing-device-i",
+    "title": "Building a simple data capturing device - Part I",
+    "date": "2016-11-26T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "mbed",
+      "iot"
+    ],
+    "visible": true,
+    "excerpt": "<p>I'm building a simple data capture device for our family farm. I've experimented with a few devices before, but I've had trouble with both their usability and reliability.</p>",
+    "excerptPlain": "I'm building a simple data capture device for our family farm. I've experimented with a few devices before, but I've had trouble with both their usability and reliability.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2016-12-02-Alexa-Auth0-III",
+    "title": "Building Secure Alexa Skills - Part III",
+    "date": "2016-12-02T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "alexa",
+      "auth0"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2016-12-10-Building-a-simple-data-capturing-device-ii",
+    "title": "Building a simple data capturing device - Part II",
+    "date": "2016-12-10T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "mbed",
+      "iot"
+    ],
+    "visible": true,
+    "excerpt": "<p>In the <a href=\"/post/2016-11-25-Building-a-simple-data-capturing-device-i.markdown%25%7D\">first part of this series</a> I introduced the basic hardware for a data capturing device.</p>",
+    "excerptPlain": "In the [first part of this series](/post/2016-11-25-Building-a-simple-data-capturing-device-i.markdown%}) I introduced the basic hardware for a data capturing device.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2016-12-17-Building-a-simple-data-capturing-device-iii",
+    "title": "Building a simple data capturing device - Part III",
+    "date": "2016-12-17T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "mbed",
+      "iot",
+      "rfid"
+    ],
+    "visible": true,
+    "excerpt": "<p>With the basic modules and general architecture in place, it is time to build the heart (or the brain) of the device.</p>",
+    "excerptPlain": "With the basic modules and general architecture in place, it is time to build the heart (or the brain) of the device.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2016-12-24-A-simple-test-harness-for-mbed",
+    "title": "A simple test harness for MBED based apps",
+    "date": "2016-12-24T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "mbed",
+      "iot",
+      "testing"
+    ],
+    "visible": true,
+    "excerpt": "<p>With the basic architecture in place, I set on building a more automated way of verifying that I'm on the right track. There are a few unit test frameworks for C++ that I found googling around, but all seemed very complicated. I opted for a simpler approach.</p>",
+    "excerptPlain": "With the basic architecture in place, I set on building a more automated way of verifying that I'm on the right track. There are a few unit test frameworks for C++ that I found googling around, but all seemed very complicated. I opted for a simpler approach.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-01-01-Webtask-as-api-gateway",
+    "title": "Using Webtask as an API gateway",
+    "date": "2017-01-01T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "express",
+      "auth0",
+      "api"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-01-14-Webtask-as-api-gateway-passwordless",
+    "title": "Using Webtask for a custom Passwordless connection in Auth0",
+    "date": "2017-01-14T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "express",
+      "auth0",
+      "api"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-01-20-Interfacing-MBED-serial-rfid",
+    "title": "Interfacing MBED with a serial RFID Reader",
+    "date": "2017-01-20T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "rfid",
+      "mbed"
+    ],
+    "visible": true,
+    "excerpt": "<p>The data capture unit I'm building will use a serial <a href=\"http://www.priority1design.com.au/shopfront/index.php?main_page=product_info&#x26;products_id=18&#x26;zenid=galhvnekb48tsjd0d6alcfpgb1\">RFID reader</a>.</p>",
+    "excerptPlain": "The data capture unit I'm building will use a serial [RFID reader](http://www.priority1design.com.au/shopfront/index.php?main_page=product_info&products_id=18&zenid=galhvnekb48tsjd0d6alcfpgb1).",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-01-30-Pace-Locomotive-Works",
+    "title": "Pace Locomotive Works - Notes on building a model diesel engine from scratch",
+    "date": "2017-01-30T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "trains"
+    ],
+    "visible": true,
+    "excerpt": "<p>I've decided to build a small (fake) diesel engine. I like those that were used in industrial complexes, or small rail yards. This is a type of engine that was meant for <strong>switching</strong> or <strong>shunting</strong> (if you are in the UK), rather than long trips.</p>",
+    "excerptPlain": "I've decided to build a small (fake) diesel engine. I like those that were used in industrial complexes, or small rail yards. This is a type of engine that was meant for **switching** or **shunting** (if you are in the UK), rather than long trips.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-03-12-Securing-IVR-with-Auth0",
+    "title": "Securing an IVR with Auth0",
+    "date": "2017-03-12T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "voice"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-03-17-A-Simple-IVR-with-Webtask-and-Twilio",
+    "title": "A Simple IVR with Webtask and Twilio",
+    "date": "2017-03-17T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "voice"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-03-26-Building-a-Nexmo-app-with-webtask",
+    "title": "Building a Nexmo app with Webtask",
+    "date": "2017-03-26T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "voice"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-04-15-Pace-Locomotive-Works-Part-ii-control-panel",
+    "title": "Pace Locomotive Works - Part II - Control Panel",
+    "date": "2017-04-15T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "trains"
+    ],
+    "visible": true,
+    "excerpt": "<p>Last weekend I've got some time to work on our model engine again. I reviewed the original control panel I designed some time ago:</p>",
+    "excerptPlain": "Last weekend I've got some time to work on our model engine again. I reviewed the original control panel I designed some time ago:",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-06-10-securing-google-cloud-endpoint-api-with-auth0",
+    "title": "Securing a Google Cloud Endpoint API with Auth0",
+    "date": "2017-06-10T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "auth0"
+    ],
+    "visible": true,
+    "excerpt": "<h2>TL;DR</h2>",
+    "excerptPlain": "## TL;DR",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-07-15-using-twilio-and-webtask-to-become-a-better-stoic",
+    "title": "Using Twilio and Auth0 Webtask to become a better stoic",
+    "date": "2017-07-15T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "auth0",
+      "twilio"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-10-15-tracking-sleep-mood-with-twilio-and-webtask",
+    "title": "Fun with Stats - Tracking Sleep & Mood with Twilio and Webtask",
+    "date": "2017-10-15T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "auth0"
+    ],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-11-25-controlling-a-nest-thermostat-with-sms",
+    "title": "Controlling a NEST thermostat with SMS",
+    "date": "2017-11-25T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "auth0",
+      "nest"
+    ],
+    "visible": true,
+    "excerpt": "<p>This new application, shows how to control a NEST thermostat with SMS messages via Twilio:</p>",
+    "excerptPlain": "This new application, shows how to control a NEST thermostat with SMS messages via Twilio:",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-12-02-controlling-a-nest-thermostat-with-sms-part-ii",
+    "title": "Controlling a NEST thermostat with SMS - Part II",
+    "date": "2017-12-02T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "auth0",
+      "nest"
+    ],
+    "visible": true,
+    "excerpt": "<p>This is a short followup excercise in my <strong>SMS &#x3C;-> NEST</strong> integration: adding Phone verification.</p>",
+    "excerptPlain": "This is a short followup excercise in my **SMS <-> NEST** integration: adding Phone verification.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2017-12-21-interacting-with-a-nest-camera-with-sms",
+    "title": "Interacting with a NEST Camera with SMS",
+    "date": "2017-12-21T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "auth0",
+      "nest"
+    ],
+    "visible": true,
+    "excerpt": "<p>In this post I'm expanding my experiments with the <a href=\"https://developers.nest.com/\">NEST API</a> from thermostats to cameras.</p>",
+    "excerptPlain": "In this post I'm expanding my experiments with the [NEST API](https://developers.nest.com/) from thermostats to cameras.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2018-10-13-simplyfing-webtask-configuration-management",
+    "title": "Simplyfing Webtask Configuration Management",
+    "date": "2018-10-13T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [],
+    "visible": true,
+    "excerpt": "<blockquote>\n<p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>\n</blockquote>",
+    "excerptPlain": "> Dec 27th, 2023 update: Webtasks have been deprecated.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-01-27-the-daily-stoic-quote-service-is-changing",
+    "title": "The daily stoic quote service is changing",
+    "date": "2019-01-27T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "sms"
+    ],
+    "visible": true,
+    "excerpt": "<p>You are likely reading this post because you are or were subscribed to my micro-application that sends an SMS with a daily quote from my favorite stoic philosophers.</p>",
+    "excerptPlain": "You are likely reading this post because you are or were subscribed to my micro-application that sends an SMS with a daily quote from my favorite stoic philosophers.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-02-15-a-medicine-tracker-using-aws-iot-and-twilio",
+    "title": "A Pill Tracker using AWS IoT and Twilio",
+    "date": "2019-02-15T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "iot",
+      "sms"
+    ],
+    "visible": true,
+    "excerpt": "<p>A couple of members in the family take regular pills every day. I wanted to give them a mechanism to:</p>",
+    "excerptPlain": "A couple of members in the family take regular pills every day. I wanted to give them a mechanism to:",
+    "extension": ".md"
+  },
+  {
+    "slug": "2019-03-24-fun-with-washington-public-transit-apis",
+    "title": "Fun with Washington Public Transit APIs",
+    "date": "2019-03-24T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "api",
+      "sms"
+    ],
+    "visible": true,
+    "excerpt": "<p>The sun is becoming a more frequent companion here in the Pacific Northwest. Days are longer, warmer and nature is noting the change too. A great time of the year to take any of the ferries in the Washington State Ferries fleet around Puget Sound. One of the cheapest cruises you can take.</p>",
+    "excerptPlain": "The sun is becoming a more frequent companion here in the Pacific Northwest. Days are longer, warmer and nature is noting the change too. A great time of the year to take any of the ferries in the Washington State Ferries fleet around Puget Sound. One of the cheapest cruises you can take.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-04-14-calling-secure-apis-from-arduino-part-i",
+    "title": "Calling Secure APIs From Arduino - Part I",
+    "date": "2019-04-25T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "deviceflow",
+      "auth0"
+    ],
+    "visible": true,
+    "excerpt": "<p>A new authentication flow is now available in Auth0, that allows devices with limited input capabilities (e.g., no keyboard or touch screens) to get an <code>access_token</code> that can be then used to call an API.</p>",
+    "excerptPlain": "A new authentication flow is now available in Auth0, that allows devices with limited input capabilities (e.g., no keyboard or touch screens) to get an `access_token` that can be then used to call an API.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-05-25-calling-secure-apis-from-arduino-part-ii",
+    "title": "Calling Secure APIs From Arduino - Part II",
+    "date": "2019-05-25T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "api",
+      "deviceflow"
+    ],
+    "visible": true,
+    "excerpt": "<p>In <a href=\"/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown\">the previous post</a>, I covered the printer. In this post, I focus on the API.</p>",
+    "excerptPlain": "In [the previous post](/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown), I covered the printer. In this post, I focus on the API.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-06-21-experiments-with-e-paper-displays",
+    "title": "Experiments with e-Paper displays",
+    "date": "2019-06-21T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino",
+      "eink"
+    ],
+    "visible": true,
+    "excerpt": "<p>Our board member <a href=\"https://twitter.com/pvh\">Peter Van Hardenberg</a> got me intrigued on e-Paper displays. So I went to <a href=\"http://adafruit.com\">Adafruit</a> to check what was available for the <a href=\"https://www.adafruit.com/product/3010\">Feather M0</a>. I figured it would be a nice extension to [my original printer project]({% post_url 2019-04-14-calling-secure-apis-from-arduino-part-i %}), to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.</p>",
+    "excerptPlain": "Our board member [Peter Van Hardenberg](https://twitter.com/pvh) got me intrigued on e-Paper displays. So I went to [Adafruit](http://adafruit.com) to check what was available for the [Feather M0](https://www.adafruit.com/product/3010). I figured it would be a nice extension to [my original printer project]({% post_url 2019-04-14-calling-secure-apis-from-arduino-part-i %}), to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-07-01-qrcode-on-arduino",
+    "title": "QRCode on Arduino",
+    "date": "2019-07-01T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "qrcode",
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>For <a href=\"/post/2019-06-21-experiments-with-e-paper-displays.markdown\">the e-Paper project I worked before</a> I had to generate a QR code. The QR code encodes the login URL. The idea is that you point a phone's camera to it. Modern phones are configured to scan QRCodes automagically with their cameras and prompt the user to open a URL (the login URL in my case). Pretty convenient.</p>",
+    "excerptPlain": "For [the e-Paper project I worked before](/post/2019-06-21-experiments-with-e-paper-displays.markdown) I had to generate a QR code. The QR code encodes the login URL. The idea is that you point a phone's camera to it. Modern phones are configured to scan QRCodes automagically with their cameras and prompt the user to open a URL (the login URL in my case). Pretty convenient.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-07-05-first-incursions-into-computer-vision",
+    "title": "First incursions into Computer Vision",
+    "date": "2019-07-05T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "opencv",
+      "computervision"
+    ],
+    "visible": true,
+    "excerpt": "<p>I took a few days off and decided to dive into a completely unexplored domain. With all the hype in ML and AI, I figured I would look into that first.</p>",
+    "excerptPlain": "I took a few days off and decided to dive into a completely unexplored domain. With all the hype in ML and AI, I figured I would look into that first.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-08-30-an-ivr-for-collecting-rainfall-data",
+    "title": "An IVR for collecting rainfall data",
+    "date": "2019-08-30T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "ivr",
+      "weather",
+      "sms"
+    ],
+    "visible": true,
+    "excerpt": "<p>I put together a small app for collecting rainfall information. It is essential to get precise rainfall information in specific locations of our family farm, and the one practical way I found is just to allow people working in the fields to report it back via their phones.</p>",
+    "excerptPlain": "I put together a small app for collecting rainfall information. It is essential to get precise rainfall information in specific locations of our family farm, and the one practical way I found is just to allow people working in the fields to report it back via their phones.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-09-14-notes-on-tls-connections-with-arduino",
+    "title": "Notes on TLS connections with Arduino",
+    "date": "2019-09-14T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino",
+      "TLS",
+      "SSL"
+    ],
+    "visible": true,
+    "excerpt": "<h2>TL;DR</h2>",
+    "excerptPlain": "## TL;DR",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-10-07-building-katie-our-first-real-steam-engine",
+    "title": "Building Katie. Our first real steam engine",
+    "date": "2019-10-07T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "trains"
+    ],
+    "visible": true,
+    "excerpt": "<p>For a long time I wanted to build a steam engine. I've always been fascinated by trains in general, and steam engines in particular.</p>",
+    "excerptPlain": "For a long time I wanted to build a steam engine. I've always been fascinated by trains in general, and steam engines in particular.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-11-15-loading-express-route-handlers-using-naming-conventions",
+    "title": "Loading Express Route Handlers Using Naming Conventions",
+    "date": "2019-11-15T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "nodejs"
+    ],
+    "visible": true,
+    "excerpt": "<p>For a little project I've been working on, I wanted to load nodejs modules into an express router automagically, using naming conventions by just having folders in a predefined location.</p>",
+    "excerptPlain": "For a little project I've been working on, I wanted to load nodejs modules into an express router automagically, using naming conventions by just having folders in a predefined location.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2019-12-07-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-i",
+    "title": "Art and geometry - Building the Auth0 Logo with Nanoleaf Panels - Part I",
+    "date": "2019-12-07T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "geometry"
+    ],
+    "visible": true,
+    "excerpt": "<p>A colleague of mine had a really nice backwall light art and I asked him what was it. It turned out to be a design based on <a href=\"https://nanoleaf.me/en/consumer-led-lighting/products/smarter-series/nanoleaf-light-panels-smarter-kit/\">nanoleaf light panels</a></p>",
+    "excerptPlain": "A colleague of mine had a really nice backwall light art and I asked him what was it. It turned out to be a design based on [nanoleaf light panels](https://nanoleaf.me/en/consumer-led-lighting/products/smarter-series/nanoleaf-light-panels-smarter-kit/)",
+    "extension": ".md"
+  },
+  {
+    "slug": "2019-12-14-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-ii",
+    "title": "Art and geometry - Building the Auth0 Logo with Nanoleaf Panels - Part II",
+    "date": "2019-12-14T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "geometry"
+    ],
+    "visible": true,
+    "excerpt": "<p>Now that the basic design is ready, I need to build a base for each light panel. Not every supporting parallelogram needs to be the same. They all need to be the projected shape, but I can vary the height and even \"convexity\" to make an interesting installation.</p>",
+    "excerptPlain": "Now that the basic design is ready, I need to build a base for each light panel. Not every supporting parallelogram needs to be the same. They all need to be the projected shape, but I can vary the height and even \"convexity\" to make an interesting installation.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2019-12-28-lego-disneyt-train-and-station",
+    "title": "Lego Disney Train And Station",
+    "date": "2019-12-28T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "trains",
+      "lego"
+    ],
+    "visible": true,
+    "excerpt": "<p>A family tradition for christmas / end of the year is to build a large Lego set as a team. This year, I surprised everyone with the <a href=\"https://www.lego.com/en-us/product/disney-train-and-station-71044\">Lego Disney Train and Station</a>. It is a cool, very detailed set.</p>",
+    "excerptPlain": "A family tradition for christmas / end of the year is to build a large Lego set as a team. This year, I surprised everyone with the [Lego Disney Train and Station](https://www.lego.com/en-us/product/disney-train-and-station-71044). It is a cool, very detailed set.",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display",
+    "title": "A Display of Stoic Quotes using Arduino and e-Paper Display",
+    "date": "2020-01-18T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino",
+      "eink"
+    ],
+    "visible": true,
+    "excerpt": "<p>Some time ago, I was <a href=\"/post/2019-06-21-experiments-with-e-paper-displays.markdown\">experimenting with e-paper displays</a> and built a prototype that would use an API to retrieve a quote (from my favorite stoic philosophers). Because I was calling an API, it was a good excuse to test the <a href=\"https://auth0.com/docs/flows/concepts/device-auth\">Device Flow</a> authentication that <a href=\"https://auth0.com\">Auth0</a> supports.</p>",
+    "excerptPlain": "Some time ago, I was [experimenting with e-paper displays](/post/2019-06-21-experiments-with-e-paper-displays.markdown) and built a prototype that would use an API to retrieve a quote (from my favorite stoic philosophers). Because I was calling an API, it was a good excuse to test the [Device Flow](https://auth0.com/docs/flows/concepts/device-auth) authentication that [Auth0](https://auth0.com) supports.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2020-01-25-A-Simple-Command-Line-Interface-for-Arduino",
+    "title": "A Simple Command Line Interface for Arduino",
+    "date": "2020-01-25T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino",
+      "eink",
+      "cli"
+    ],
+    "visible": true,
+    "excerpt": "<p>In a <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">previous post</a> I described a simple display of quotes using an ePaper and an Arduino board. There's no interface (keyboard, buttons, touchscreen), so all interactions and configuration must happen through the terminal (via the USB connection).</p>",
+    "excerptPlain": "In a [previous post](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md) I described a simple display of quotes using an ePaper and an Arduino board. There's no interface (keyboard, buttons, touchscreen), so all interactions and configuration must happen through the terminal (via the USB connection).",
+    "extension": ".md"
+  },
+  {
+    "slug": "2020-02-15-The-story-of-the-invisible-CR",
+    "title": "The story of the invisible CR",
+    "date": "2020-02-01T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino",
+      "eink"
+    ],
+    "visible": true,
+    "excerpt": "<p>While building my <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">Stoic Display</a> I run into an issue that consumed me a lot of time. As it always happens with some bugs, in retrospect it was so obvious that it gets to the point of being embarrassing. All the clues were there in front of me, but I missed them all.</p>",
+    "excerptPlain": "While building my [Stoic Display](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md) I run into an issue that consumed me a lot of time. As it always happens with some bugs, in retrospect it was so obvious that it gets to the point of being embarrassing. All the clues were there in front of me, but I missed them all.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2020-03-09-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iii",
+    "title": "Art and geometry - Building the Auth0 Logo with Nanoleaf Panels - Part III",
+    "date": "2020-03-09T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "geometry",
+      "nanoleaf"
+    ],
+    "visible": true,
+    "excerpt": "<p>I was able to make some progress this weekend, my parents were visiting so I enrolled them. We completed the frame:</p>",
+    "excerptPlain": "I was able to make some progress this weekend, my parents were visiting so I enrolled them. We completed the frame:",
+    "extension": ".md"
+  },
+  {
+    "slug": "2020-03-14-controlling-a-tesla-car-with-sms",
+    "title": "Controling a Tesla car with SMS",
+    "date": "2020-03-14T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "tesla",
+      "nodejs"
+    ],
+    "visible": false,
+    "excerpt": "<p>Someone I know got a Tesla some time ago, an amazing car. I can't think of anything geekier. What can be geekier than a car that ships with auto-updates and ... an API! (albeit unofficial, more below).</p>",
+    "excerptPlain": "Someone I know got a Tesla some time ago, an amazing car. I can't think of anything geekier. What can be geekier than a car that ships with auto-updates and ... an API! (albeit unofficial, more below).",
+    "extension": ".markdown"
+  },
+  {
+    "slug": "2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino",
+    "title": "A Very Simple Task Scheduler on Arduino",
+    "date": "2020-03-28T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>Another turn in my journey building the <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">Stoic Display</a>. I wanted to launch a number of tasks on some recurrence. The most basic one being <code>showing a quote</code>.</p>",
+    "excerptPlain": "Another turn in my journey building the [Stoic Display](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md). I wanted to launch a number of tasks on some recurrence. The most basic one being `showing a quote`.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2020-04-05-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iv",
+    "title": "Art and geometry - Building the Auth0 Logo with Nanoleaf Panels - Part IV",
+    "date": "2020-04-05T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "geometry",
+      "nanoleaf"
+    ],
+    "visible": true,
+    "excerpt": "<p>A picture is worth a thousand words. So this post is all pictures and no words (6 thousand words equivalent):</p>",
+    "excerptPlain": "A picture is worth a thousand words. So this post is all pictures and no words (6 thousand words equivalent):",
+    "extension": ".md"
+  },
+  {
+    "slug": "2020-05-11-Using-a-Watchdog-to-fix-all-issues",
+    "title": "Using a Watchdog to fix all issues",
+    "date": "2020-05-11T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>My little <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">project</a> has become quite sophisticated now. I managed to code enough to fill 82% of Arduino's total program memory!</p>",
+    "excerptPlain": "My little [project](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md) has become quite sophisticated now. I managed to code enough to fill 82% of Arduino's total program memory!",
+    "extension": ".md"
+  },
+  {
+    "slug": "2020-10-30-A-CLI-for-Arduino-followup",
+    "title": "A CLI for Arduino - followup",
+    "date": "2020-10-30T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>In a <a href=\"/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino.md\">previous post</a> I described a simple approach for sending commands to an Arduino based project via the <code>Serial</code> interface.</p>",
+    "excerptPlain": "In a [previous post](/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino.md) I described a simple approach for sending commands to an Arduino based project via the `Serial` interface.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges",
+    "title": "A Broadcaster for SMS MFA Challenges",
+    "date": "2021-03-29T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "sms",
+      "otp"
+    ],
+    "visible": true,
+    "excerpt": "<p>Many web applications now require MFA which is great to see. Some use time based tokens (TOTP), with application like Google Authenticator to enroll and generate them. Others use SMS messages which are not super secure but better than nothing I guess... Others use a combination: TOTP with SMS as fallback. Very few apps have the sophistication to allow multiple phones to be enrolled on a given account.</p>",
+    "excerptPlain": "Many web applications now require MFA which is great to see. Some use time based tokens (TOTP), with application like Google Authenticator to enroll and generate them. Others use SMS messages which are not super secure but better than nothing I guess... Others use a combination: TOTP with SMS as fallback. Very few apps have the sophistication to allow multiple phones to be enrolled on a given account.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2021-04-04-Surprises-With-MFA-And_Device-Flow",
+    "title": "Surprises with MFA and Device Flow",
+    "date": "2021-04-04T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "sms",
+      "otp"
+    ],
+    "visible": true,
+    "excerpt": "<p>As I was experimenting with the <a href=\"/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges.md\">SMS Broadcaster</a>, <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">one of my projects</a> stopped working suddenly.</p>",
+    "excerptPlain": "As I was experimenting with the [SMS Broadcaster](/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges.md), [one of my projects](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md) stopped working suddenly.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2021-06-19-To-Proxy-Or-Not",
+    "title": "To Proxy Or Not",
+    "date": "2021-06-19T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>SSL / TLS support on small footprint Arduino boards like the Adafruit M0 has been somewhat tricky, with missing documentation, rather poor troubleshooting, or both. Perhaps it is just that I have limited knowledge of all the various versions, variations and flavours of TLS/signing algorithms, etc.</p>",
+    "excerptPlain": "SSL / TLS support on small footprint Arduino boards like the Adafruit M0 has been somewhat tricky, with missing documentation, rather poor troubleshooting, or both. Perhaps it is just that I have limited knowledge of all the various versions, variations and flavours of TLS/signing algorithms, etc.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2021-08-14-exploring-the-dexcom-api",
+    "title": "Exploring the Dexcom API",
+    "date": "2021-08-14T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "dexcom"
+    ],
+    "visible": true,
+    "excerpt": "<p>Someone I know is using the Dexcom G6 CGM device (CGM = Continuous Glucose Monitoring). It is a pretty amazing device. It takes a glucose measurement every 5 min without requiring you to prick your finger and using strips. I'm told it is life changing for people who have diabetes and I can see why.</p>",
+    "excerptPlain": "Someone I know is using the Dexcom G6 CGM device (CGM = Continuous Glucose Monitoring). It is a pretty amazing device. It takes a glucose measurement every 5 min without requiring you to prick your finger and using strips. I'm told it is life changing for people who have diabetes and I can see why.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2021-09-04-OTA-updates-for-Arduino-Projects-Part-I",
+    "title": "OTA Updates for Arduino Projects - Part I",
+    "date": "2021-09-04T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino",
+      "ota"
+    ],
+    "visible": true,
+    "excerpt": "<p>Today I started researching options for \"Over The Air\" (OTA) updates for my Arduino based project. Until now whenever I need to update the sketch I simply connect the board to my computer, compile and upload using the Arduino IDE. It works well, but for a \"real\" project it would not be practical.</p>",
+    "excerptPlain": "Today I started researching options for \"Over The Air\" (OTA) updates for my Arduino based project. Until now whenever I need to update the sketch I simply connect the board to my computer, compile and upload using the Arduino IDE. It works well, but for a \"real\" project it would not be practical.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2021-09-25-OTA-updates-for-Arduino-Projects-Part-II",
+    "title": "OTA Updates for Arduino Projects - Part II",
+    "date": "2021-09-25T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino",
+      "ota"
+    ],
+    "visible": true,
+    "excerpt": "<p>A followup of the <a href=\"/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I.md\">previous post</a> on OTA updates. The second step is getting the bits downloaded. I added downloading capabilities to the <code>HTTPRequest</code> implementation.</p>",
+    "excerptPlain": "A followup of the [previous post](/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I.md) on OTA updates. The second step is getting the bits downloaded. I added downloading capabilities to the `HTTPRequest` implementation.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2021-10-09-OTA-updates-for-Arduino-Projects-Part-III",
+    "title": "OTA Updates for Arduino Projects - Part III",
+    "date": "2021-10-09T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino",
+      "ota"
+    ],
+    "visible": true,
+    "excerpt": "<p>In this post of the \"OTA Updates\" series, I am covering automating the build. Until now, I've been always compiling sketches using the IDE. It works great and for this projects, I think the experience has been great, even when my project grew to +30 files.</p>",
+    "excerptPlain": "In this post of the \"OTA Updates\" series, I am covering automating the build. Until now, I've been always compiling sketches using the IDE. It works great and for this projects, I think the experience has been great, even when my project grew to +30 files.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2021-11-06-OTA-updates-for-Arduino-Projects-Part-IV",
+    "title": "OTA Updates for Arduino Projects - Part IV",
+    "date": "2021-11-06T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino",
+      "ota"
+    ],
+    "visible": true,
+    "excerpt": "<p>Continuing with my series on OTA updates for my project, this time I'll cover building the back-end. The hardest piece was comparing versions (following the <code>MAJOR.MINOR.PATCH</code> format). Thanks <a href=\"https://stackoverflow.com/\">StackOverflow</a> for some good ideas on how to do it.</p>",
+    "excerptPlain": "Continuing with my series on OTA updates for my project, this time I'll cover building the back-end. The hardest piece was comparing versions (following the `MAJOR.MINOR.PATCH` format). Thanks [StackOverflow](https://stackoverflow.com/) for some good ideas on how to do it.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2021-11-26-A-CLI-for-Arduino-Revisited",
+    "title": "A CLI for Arduino revisited",
+    "date": "2021-11-26T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>A <a href=\"https://disqus.com/by/edgarbonet/?\">reader</a> of this blog pointed out that my implementation of the Arduino CLI was using memory sub-optimally. He also wrote my implementation would not work on an Arduino UNO. I don't have one, so I cannot test it.</p>",
+    "excerptPlain": "A [reader](https://disqus.com/by/edgarbonet/?) of this blog pointed out that my implementation of the Arduino CLI was using memory sub-optimally. He also wrote my implementation would not work on an Arduino UNO. I don't have one, so I cannot test it.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2022-01-18-the-dexcom-api-ii",
+    "title": "The Dexcom API - Part II",
+    "date": "2022-01-18T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "dexcom"
+    ],
+    "visible": true,
+    "excerpt": "<p>I <a href=\"/post/2021-08-14-exploring-the-dexcom-api.md\">wrote before</a> about the Dexcom device for continuous glucose monitoring, and how you can use their API to login, obtain <code>access_token</code>.</p>",
+    "excerptPlain": "I [wrote before](/post/2021-08-14-exploring-the-dexcom-api.md) about the Dexcom device for continuous glucose monitoring, and how you can use their API to login, obtain `access_token`.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2022-04-02-running-scheduled-tasks-in-heroku",
+    "title": "Running scheduled tasks in Heroku",
+    "date": "2022-04-02T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "cron",
+      "heroku"
+    ],
+    "visible": true,
+    "excerpt": "<p>Many of my projects often times have a background job that runs on a schedule:</p>",
+    "excerptPlain": "Many of my projects often times have a background job that runs on a schedule:",
+    "extension": ".md"
+  },
+  {
+    "slug": "2022-05-09-experiments-with-vestaboard",
+    "title": "Experiments with Vestaboard",
+    "date": "2022-05-09T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "vestaboard"
+    ],
+    "visible": true,
+    "excerpt": "<p>A few weeks ago I finally got a <a href=\"https://www.vestaboard.com/\">Vestaboard</a> after a long wait. It is a beautiful piece of hardware. Very well built, super high quality. And it brings memories of standing in train stations and airports long time ago.</p>",
+    "excerptPlain": "A few weeks ago I finally got a [Vestaboard](https://www.vestaboard.com/) after a long wait. It is a beautiful piece of hardware. Very well built, super high quality. And it brings memories of standing in train stations and airports long time ago.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2022-05-16-An-opinionanted-http-client-for-arduino",
+    "title": "An opinionated HTTP Client for Arduino",
+    "date": "2022-05-16T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>There are a few HTTP libraries available for the Arduino platform. I decided against using any of them because:</p>",
+    "excerptPlain": "There are a few HTTP libraries available for the Arduino platform. I decided against using any of them because:",
+    "extension": ".md"
+  },
+  {
+    "slug": "2022-07-09-Experiments-with-arduino-stream-class",
+    "title": "Experiments with Arduino Stream class",
+    "date": "2022-07-09T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>In my Arduino projects a lot of the ends up being string manipulation. A good example is constructing the response objects for a REST API. This ends up being a bunch of concatenations, <code>sprintf</code>, etc.</p>",
+    "excerptPlain": "In my Arduino projects a lot of the ends up being string manipulation. A good example is constructing the response objects for a REST API. This ends up being a bunch of concatenations, `sprintf`, etc.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2022-09-05-Unexpected-interference-from-inpout-pins",
+    "title": "The button that pressed itself (not)",
+    "date": "2022-09-05T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>I recently bought a new (larger) e-Ink display from Adafruit: <a href=\"https://www.adafruit.com/product/4777\">2.9\" ThinkInk FeatherWing</a>. It comes with the usual SD card, memory and differently from the previous versions with 3 convenient buttons.</p>",
+    "excerptPlain": "I recently bought a new (larger) e-Ink display from Adafruit: [2.9\" ThinkInk FeatherWing](https://www.adafruit.com/product/4777). It comes with the usual SD card, memory and differently from the previous versions with 3 convenient buttons.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2022-12-06-A-Glimpse-into-the-future",
+    "title": "A glimpse into the future?",
+    "date": "2022-12-06T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "openai"
+    ],
+    "visible": true,
+    "excerpt": "<p>My database of quotes is full of colorful English translations. Most of them are very old. Lot's of \"thee\" and \"thou\", mixed up with \"thy\" and \"wilst\". The quotes might sound more profund perhaps, but... <em>philosophy is for living, not just for learning...</em>.</p>",
+    "excerptPlain": "My database of quotes is full of colorful English translations. Most of them are very old. Lot's of \"thee\" and \"thou\", mixed up with \"thy\" and \"wilst\". The quotes might sound more profund perhaps, but... _philosophy is for living, not just for learning..._.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2023-03-26-rethinking-programming-with-openai",
+    "title": "Rethinking programming with OpenAI",
+    "date": "2023-03-26T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "openai"
+    ],
+    "visible": true,
+    "excerpt": "<p>OpenAI released a new version of their API, which (according to what is advertised) is 90% cheaper, faster, and more efficient. I am all for efficiency so I decided to upgrade my implementation from <code>text-davinci-003</code> model to <code>ChatGPT3.5</code></p>",
+    "excerptPlain": "OpenAI released a new version of their API, which (according to what is advertised) is 90% cheaper, faster, and more efficient. I am all for efficiency so I decided to upgrade my implementation from `text-davinci-003` model to `ChatGPT3.5`",
+    "extension": ".md"
+  },
+  {
+    "slug": "2023-07-28-More-programming-with-openai",
+    "title": "More Programming with OpenAI",
+    "date": "2023-07-28T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "openai",
+      "lego"
+    ],
+    "visible": true,
+    "excerpt": "<p>My son loves puzzles and Legos. He recently completed one Lego set that kind of combines both:</p>",
+    "excerptPlain": "My son loves puzzles and Legos. He recently completed one Lego set that kind of combines both:",
+    "extension": ".md"
+  },
+  {
+    "slug": "2023-08-14-An-OpenAI-written-pixelator",
+    "title": "Pixelator co-written with OpenAI - Part I",
+    "date": "2023-08-14T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "openai",
+      "lego"
+    ],
+    "visible": true,
+    "excerpt": "<p>I continued to experiment with ChatGPT and <a href=\"/post/2023-07-28-More-programming-with-openai.md\">my mosaic generator project</a> (a.k.a. Pixelator).</p>",
+    "excerptPlain": "I continued to experiment with ChatGPT and [my mosaic generator project](/post/2023-07-28-More-programming-with-openai.md) (a.k.a. Pixelator).",
+    "extension": ".md"
+  },
+  {
+    "slug": "2023-09-03-Mosaic-generator-Part-II",
+    "title": "Pixelator co-written with OpenAI - Part II",
+    "date": "2023-09-03T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "openai",
+      "lego"
+    ],
+    "visible": true,
+    "excerpt": "<p>This is Part II of my AI written mosaic generator in which I describe the algorithm I used to create the tiles. (Part I is described <a href=\"/post/2023-08-14-An-OpenAI-written-pixelator.md\">here</a>).</p>",
+    "excerptPlain": "This is Part II of my AI written mosaic generator in which I describe the algorithm I used to create the tiles. (Part I is described [here](/post/2023-08-14-An-OpenAI-written-pixelator.md)).",
+    "extension": ".md"
+  },
+  {
+    "slug": "2023-11-18-adding-hardware-handshake-thermal-printer",
+    "title": "Adding Hardware handshake in Thermal Printer",
+    "date": "2023-11-18T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "arduino"
+    ],
+    "visible": true,
+    "excerpt": "<p>I've been struggling to get my thermal printer to print bitmaps correctly. More specifically QRCodes.</p>",
+    "excerptPlain": "I've been struggling to get my thermal printer to print bitmaps correctly. More specifically QRCodes.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2023-12-20-rethiunking-ui-with-ai",
+    "title": "Rethinking UIs in a world of AI",
+    "date": "2023-12-21T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "openai"
+    ],
+    "visible": true,
+    "excerpt": "<p>Last post of 2023!</p>",
+    "excerptPlain": "Last post of 2023!",
+    "extension": ".md"
+  },
+  {
+    "slug": "2024-01-19-the-life-progress-bar",
+    "title": "The life progress bar",
+    "date": "2023-12-31T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "life"
+    ],
+    "visible": false,
+    "excerpt": "<p>A new year starts, and although arbitrary, because every day, every second, every instant a new year starts, it is only on rare occasions we get to celebrate alltogether.</p>",
+    "excerptPlain": "A new year starts, and although arbitrary, because every day, every second, every instant a new year starts, it is only on rare occasions we get to celebrate alltogether.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2025-02-02-3d-printing-parts-for-old-märklin-freight-car",
+    "title": "3D Printing parts for an old Märklin freight car",
+    "date": "2025-02-02T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "trains"
+    ],
+    "visible": true,
+    "excerpt": "<p>I love seeing old trains back in action, and there's no better way to do that than by buying vintage pieces at a train show.</p>",
+    "excerptPlain": "I love seeing old trains back in action, and there's no better way to do that than by buying vintage pieces at a train show.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2025-02-11-POTS-VS1053",
+    "title": "POTS and the VS1053 Audio board for speech synthesis - Part 1",
+    "date": "2025-02-11T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "voice"
+    ],
+    "visible": true,
+    "excerpt": "<p>Knowing I like old pieces of engineering, my family gifted me a fully functioning old rotary phone, identical to the one we had at our home growing up (for many years). It is a Siemens-Halske model built in Argentina probably in the early 1970's.</p>",
+    "excerptPlain": "Knowing I like old pieces of engineering, my family gifted me a fully functioning old rotary phone, identical to the one we had at our home growing up (for many years). It is a Siemens-Halske model built in Argentina probably in the early 1970's.",
+    "extension": ".md"
+  },
+  {
+    "slug": "2025-05-02-A-CBUS-Module-for-Model-Railway-accesories",
+    "title": "A CBUS Module for Model Railway Accessories – Part I: Hardware",
+    "date": "2025-05-02T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "cbus",
+      "trains"
+    ],
+    "visible": true,
+    "excerpt": "<p>My model railway club (<a href=\"https://ete-pnw.org\">ETE</a>) is building a few new modules for our layout. One of them features a brewery, based on <a href=\"https://www.faller.de/en/miniature-worlds/busy-world-of-business/18124/veltins-brewery\">this kit from Faller</a>. It’s a detailed model, and we’re lucky to have Alan—an expert diorama builder—bringing it to life. Great work, Alan!</p>",
+    "excerptPlain": "My model railway club ([ETE](https://ete-pnw.org)) is building a few new modules for our layout. One of them features a brewery, based on [this kit from Faller](https://www.faller.de/en/miniature-worlds/busy-world-of-business/18124/veltins-brewery). It’s a detailed model, and we’re lucky to have Alan—an expert diorama builder—bringing it to life. Great work, Alan!",
+    "extension": ".md"
+  },
+  {
+    "slug": "2025-05-09-A-CBUS-Module-for-Model-Railway-accesories-part-ii",
+    "title": "A CBUS Module for Model Railway Accessories – Part II: Software",
+    "date": "2025-05-31T00:00:00.000Z",
+    "author": "Eugenio Pace",
+    "categories": [
+      "cbus",
+      "trains"
+    ],
+    "visible": true,
+    "excerpt": "<p>In <a href=\"/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md\">Part I</a>, I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.</p>",
+    "excerptPlain": "In [Part I](/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md), I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.",
+    "extension": ".md"
+  }
+]

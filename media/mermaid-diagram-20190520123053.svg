@@ -1,0 +1,360 @@
+<svg id="mermaid-1558379367304" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1370px;" viewBox="-50 -10 1370 1007"><style>
+
+
+#mermaid-1558379367304 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1558379367304 .node rect,
+#mermaid-1558379367304 .node circle,
+#mermaid-1558379367304 .node ellipse,
+#mermaid-1558379367304 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1558379367304 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1558379367304 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1558379367304 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1558379367304 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1558379367304 .cluster rect {
+  fill: #ffffde !important;
+  stroke: #aaaa33 !important;
+  stroke-width: 1px !important; }
+
+#mermaid-1558379367304 .cluster text {
+  fill: #333; }
+
+#mermaid-1558379367304 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1558379367304 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1558379367304 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1558379367304 .actor-line {
+  stroke: grey; }
+
+#mermaid-1558379367304 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1558379367304 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1558379367304 #arrowhead {
+  fill: #333; }
+
+#mermaid-1558379367304 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1558379367304 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1558379367304 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1558379367304 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1558379367304 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1558379367304 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1558379367304 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1558379367304 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+#mermaid-1558379367304 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1558379367304 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1558379367304 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1558379367304 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1558379367304 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1558379367304 .section2 {
+  fill: #fff400; }
+
+#mermaid-1558379367304 .section1,
+#mermaid-1558379367304 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1558379367304 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1558379367304 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1558379367304 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1558379367304 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1558379367304 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1558379367304 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1558379367304 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1558379367304 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1558379367304 .task {
+  stroke-width: 2; }
+
+#mermaid-1558379367304 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1558379367304 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1558379367304 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1558379367304 .taskText0,
+#mermaid-1558379367304 .taskText1,
+#mermaid-1558379367304 .taskText2,
+#mermaid-1558379367304 .taskText3 {
+  fill: white; }
+
+#mermaid-1558379367304 .task0,
+#mermaid-1558379367304 .task1,
+#mermaid-1558379367304 .task2,
+#mermaid-1558379367304 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1558379367304 .taskTextOutside0,
+#mermaid-1558379367304 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1558379367304 .taskTextOutside1,
+#mermaid-1558379367304 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1558379367304 .active0,
+#mermaid-1558379367304 .active1,
+#mermaid-1558379367304 .active2,
+#mermaid-1558379367304 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1558379367304 .activeText0,
+#mermaid-1558379367304 .activeText1,
+#mermaid-1558379367304 .activeText2,
+#mermaid-1558379367304 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1558379367304 .done0,
+#mermaid-1558379367304 .done1,
+#mermaid-1558379367304 .done2,
+#mermaid-1558379367304 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1558379367304 .doneText0,
+#mermaid-1558379367304 .doneText1,
+#mermaid-1558379367304 .doneText2,
+#mermaid-1558379367304 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1558379367304 .crit0,
+#mermaid-1558379367304 .crit1,
+#mermaid-1558379367304 .crit2,
+#mermaid-1558379367304 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1558379367304 .activeCrit0,
+#mermaid-1558379367304 .activeCrit1,
+#mermaid-1558379367304 .activeCrit2,
+#mermaid-1558379367304 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1558379367304 .doneCrit0,
+#mermaid-1558379367304 .doneCrit1,
+#mermaid-1558379367304 .doneCrit2,
+#mermaid-1558379367304 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1558379367304 .doneCritText0,
+#mermaid-1558379367304 .doneCritText1,
+#mermaid-1558379367304 .doneCritText2,
+#mermaid-1558379367304 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1558379367304 .activeCritText0,
+#mermaid-1558379367304 .activeCritText1,
+#mermaid-1558379367304 .activeCritText2,
+#mermaid-1558379367304 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1558379367304 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1558379367304 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1558379367304 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1558379367304 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1558379367304 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1558379367304 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1558379367304 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1558379367304 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1558379367304 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1558379367304 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1558379367304 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1558379367304 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1558379367304 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1558379367304 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1558379367304 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1558379367304 .commit-id,
+#mermaid-1558379367304 .commit-msg,
+#mermaid-1558379367304 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1558379367304 {
+    color: rgba(0, 0, 0, 0.65);
+    font: ;
+  }</style><g></g><g><line id="actor2203" x1="75" y1="5" x2="75" y2="996" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Phone</tspan></text></g><g><line id="actor2204" x1="275" y1="5" x2="275" y2="996" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="275" dy="0">Twilio</tspan></text></g><g><line id="actor2205" x1="475" y1="5" x2="475" y2="996" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="400" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="475" dy="0">API</tspan></text></g><g><line id="actor2206" x1="675" y1="5" x2="675" y2="996" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="600" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="675" dy="0">DB</tspan></text></g><g><line id="actor2207" x1="875" y1="5" x2="875" y2="996" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="800" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="875" dy="0">Queue</tspan></text></g><g><line id="actor2208" x1="1075" y1="5" x2="1075" y2="996" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="1000" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1075" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="1075" dy="0">Printer</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">print</text><line x1="75" y1="100" x2="275" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="375" y="128" class="messageText" style="text-anchor: middle;">/print</text><line x1="275" y1="135" x2="475" y2="135" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="575" y="163" class="messageText" style="text-anchor: middle;">getLastQuote()</text><line x1="475" y1="170" x2="675" y2="170" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="575" y="198" class="messageText" style="text-anchor: middle;">{id: 123, text: "what stands in the way, becomes the way"}</text><line x1="675" y1="205" x2="475" y2="205" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="675" y="233" class="messageText" style="text-anchor: middle;">{QuoteId}</text><line x1="475" y1="240" x2="875" y2="240" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="675" y="268" class="messageText" style="text-anchor: middle;">ack</text><line x1="875" y1="275" x2="475" y2="275" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="375" y="303" class="messageText" style="text-anchor: middle;">{"Your quote is ready to print"}</text><line x1="475" y1="310" x2="275" y2="310" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="175" y="338" class="messageText" style="text-anchor: middle;">SMS: "Your quote is ready to print"</text><line x1="275" y1="345" x2="75" y2="345" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="775" y="423" class="messageText" style="text-anchor: middle;">getQuote()</text><line x1="1075" y1="430" x2="475" y2="430" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="675" y="458" class="messageText" style="text-anchor: middle;">GetQuote(phone)</text><line x1="475" y1="465" x2="875" y2="465" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="675" y="493" class="messageText" style="text-anchor: middle;">{id}</text><line x1="875" y1="500" x2="475" y2="500" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="575" y="528" class="messageText" style="text-anchor: middle;">getQuote(id)</text><line x1="475" y1="535" x2="675" y2="535" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g></g><g><text x="572.5" y="563" class="messageText" style="text-anchor: middle;">{ the quote }</text><line x1="670" y1="570" x2="475" y2="570" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="775" y="598" class="messageText" style="text-anchor: middle;">{text: "what stands in the way, becomes the way"}</text><line x1="475" y1="605" x2="1075" y2="605" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="1100" y="615" fill="#EDF2AE" stroke="#666" width="150" height="36" rx="0" ry="0" class="note"></rect><text x="1096" y="639" fill="black" class="noteText"><tspan x="1116" fill="black">Quote is printed</tspan></text></g><g><line x1="465" y1="380" x2="1260" y2="380" class="loopLine"></line><line x1="1260" y1="380" x2="1260" y2="661" class="loopLine"></line><line x1="465" y1="661" x2="1260" y2="661" class="loopLine"></line><line x1="465" y1="380" x2="465" y2="661" class="loopLine"></line><polygon points="465,380 515,380 515,393 506.6,400 465,400" class="labelBox"></polygon><text x="472.5" y="395" fill="black" class="labelText"><tspan x="472.5" fill="black">alt</tspan></text><text x="862.5" y="395" fill="black" class="loopText" style="text-anchor: middle;"><tspan x="862.5" fill="black">[ quote available ]</tspan></text></g><g><text x="775" y="714" class="messageText" style="text-anchor: middle;">getQuote()</text><line x1="1075" y1="721" x2="475" y2="721" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="675" y="749" class="messageText" style="text-anchor: middle;">GetQuote(phone)</text><line x1="475" y1="756" x2="875" y2="756" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="675" y="784" class="messageText" style="text-anchor: middle;">NULL</text><line x1="875" y1="791" x2="475" y2="791" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="775" y="819" class="messageText" style="text-anchor: middle;">404</text><line x1="475" y1="826" x2="1075" y2="826" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="1075" y="854" class="messageText" style="text-anchor: middle;">sleep(10secs)</text><path d="M 1075,861 C 1135,851 1135,891 1075,881" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></path></g><g><line x1="465" y1="671" x2="1185" y2="671" class="loopLine"></line><line x1="1185" y1="671" x2="1185" y2="901" class="loopLine"></line><line x1="465" y1="901" x2="1185" y2="901" class="loopLine"></line><line x1="465" y1="671" x2="465" y2="901" class="loopLine"></line><polygon points="465,671 515,671 515,684 506.6,691 465,691" class="labelBox"></polygon><text x="472.5" y="686" fill="black" class="labelText"><tspan x="472.5" fill="black">alt</tspan></text><text x="825" y="686" fill="black" class="loopText" style="text-anchor: middle;"><tspan x="825" fill="black">[ no quote ]</tspan></text></g><g><line x1="455" y1="355" x2="1270" y2="355" class="loopLine"></line><line x1="1270" y1="355" x2="1270" y2="911" class="loopLine"></line><line x1="455" y1="911" x2="1270" y2="911" class="loopLine"></line><line x1="455" y1="355" x2="455" y2="911" class="loopLine"></line><polygon points="455,355 505,355 505,368 496.6,375 455,375" class="labelBox"></polygon><text x="462.5" y="370" fill="black" class="labelText"><tspan x="462.5" fill="black">loop</tspan></text><text x="862.5" y="370" fill="black" class="loopText" style="text-anchor: middle;"><tspan x="862.5" fill="black">[ Every 10 seconds ]</tspan></text></g><g><rect x="0" y="931" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="963.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="75" dy="0">Phone</tspan></text></g><g><rect x="200" y="931" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="963.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="275" dy="0">Twilio</tspan></text></g><g><rect x="400" y="931" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="963.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="475" dy="0">API</tspan></text></g><g><rect x="600" y="931" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="963.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="675" dy="0">DB</tspan></text></g><g><rect x="800" y="931" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="963.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="875" dy="0">Queue</tspan></text></g><g><rect x="1000" y="931" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1075" y="963.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px; font-family: Open-Sans, sans-serif;"><tspan x="1075" dy="0">Printer</tspan></text></g></svg>
