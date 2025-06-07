@@ -5,7 +5,7 @@
   <link>https://yourdomain.com</link>
   <description>A blog about Latin travel</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 07 Jun 2025 16:33:58 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 07 Jun 2025 17:22:43 GMT</lastBuildDate>
   
   <item>
     <title><![CDATA[Welcome!]]></title>
@@ -74,7 +74,7 @@
     <link>https://yourdomain.com/post/2016-12-10-Building-a-simple-data-capturing-device-ii</link>
     <pubDate>Sat, 10 Dec 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In the <a href="/post/2016-11-25-Building-a-simple-data-capturing-device-i.markdown%25%7D">first part of this series</a> I introduced the basic hardware for a data capturing device.</p>]]></description>
+    <description><![CDATA[<p>In the <a href="/techblog/post/2016-11-25-Building-a-simple-data-capturing-device-i.markdown%25%7D">first part of this series</a> I introduced the basic hardware for a data capturing device.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2016-12-10-Building-a-simple-data-capturing-device-ii</guid>
   </item>
 
@@ -288,7 +288,7 @@
     <link>https://yourdomain.com/post/2019-05-25-calling-secure-apis-from-arduino-part-ii</link>
     <pubDate>Sat, 25 May 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In <a href="/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown">the previous post</a>, I covered the printer. In this post, I focus on the API.</p>]]></description>
+    <description><![CDATA[<p>In <a href="/techblog/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown">the previous post</a>, I covered the printer. In this post, I focus on the API.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2019-05-25-calling-secure-apis-from-arduino-part-ii</guid>
   </item>
 
@@ -297,7 +297,7 @@
     <link>https://yourdomain.com/post/2019-06-21-experiments-with-e-paper-displays</link>
     <pubDate>Fri, 21 Jun 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>Our board member <a href="https://twitter.com/pvh">Peter Van Hardenberg</a> got me intrigued on e-Paper displays. So I went to <a href="http://adafruit.com">Adafruit</a> to check what was available for the <a href="https://www.adafruit.com/product/3010">Feather M0</a>. I figured it would be a nice extension to <a href="/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown">my original printer project</a>, to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.</p>]]></description>
+    <description><![CDATA[<p>Our board member <a href="https://twitter.com/pvh">Peter Van Hardenberg</a> got me intrigued on e-Paper displays. So I went to <a href="http://adafruit.com">Adafruit</a> to check what was available for the <a href="https://www.adafruit.com/product/3010">Feather M0</a>. I figured it would be a nice extension to <a href="/techblog/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown">my original printer project</a>, to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2019-06-21-experiments-with-e-paper-displays</guid>
   </item>
 
@@ -306,7 +306,7 @@
     <link>https://yourdomain.com/post/2019-07-01-qrcode-on-arduino</link>
     <pubDate>Mon, 01 Jul 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>For <a href="/post/2019-06-21-experiments-with-e-paper-displays.markdown">the e-Paper project I worked before</a> I had to generate a QR code. The QR code encodes the login URL. The idea is that you point a phone's camera to it. Modern phones are configured to scan QRCodes automagically with their cameras and prompt the user to open a URL (the login URL in my case). Pretty convenient.</p>]]></description>
+    <description><![CDATA[<p>For <a href="/techblog/post/2019-06-21-experiments-with-e-paper-displays.markdown">the e-Paper project I worked before</a> I had to generate a QR code. The QR code encodes the login URL. The idea is that you point a phone's camera to it. Modern phones are configured to scan QRCodes automagically with their cameras and prompt the user to open a URL (the login URL in my case). Pretty convenient.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2019-07-01-qrcode-on-arduino</guid>
   </item>
 
@@ -387,7 +387,7 @@
     <link>https://yourdomain.com/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display</link>
     <pubDate>Sat, 18 Jan 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>Some time ago, I was <a href="/post/2019-06-21-experiments-with-e-paper-displays.markdown">experimenting with e-paper displays</a> and built a prototype that would use an API to retrieve a quote (from my favorite stoic philosophers). Because I was calling an API, it was a good excuse to test the <a href="https://auth0.com/docs/flows/concepts/device-auth">Device Flow</a> authentication that <a href="https://auth0.com">Auth0</a> supports.</p>]]></description>
+    <description><![CDATA[<p>Some time ago, I was <a href="/techblog/post/2019-06-21-experiments-with-e-paper-displays.markdown">experimenting with e-paper displays</a> and built a prototype that would use an API to retrieve a quote (from my favorite stoic philosophers). Because I was calling an API, it was a good excuse to test the <a href="https://auth0.com/docs/flows/concepts/device-auth">Device Flow</a> authentication that <a href="https://auth0.com">Auth0</a> supports.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display</guid>
   </item>
 
@@ -396,7 +396,7 @@
     <link>https://yourdomain.com/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino</link>
     <pubDate>Sat, 25 Jan 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In a <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">previous post</a> I described a simple display of quotes using an ePaper and an Arduino board. There's no interface (keyboard, buttons, touchscreen), so all interactions and configuration must happen through the terminal (via the USB connection).</p>]]></description>
+    <description><![CDATA[<p>In a <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">previous post</a> I described a simple display of quotes using an ePaper and an Arduino board. There's no interface (keyboard, buttons, touchscreen), so all interactions and configuration must happen through the terminal (via the USB connection).</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino</guid>
   </item>
 
@@ -405,7 +405,7 @@
     <link>https://yourdomain.com/post/2020-02-15-The-story-of-the-invisible-CR</link>
     <pubDate>Sat, 01 Feb 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>While building my <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">Stoic Display</a> I run into an issue that consumed me a lot of time. As it always happens with some bugs, in retrospect it was so obvious that it gets to the point of being embarrassing. All the clues were there in front of me, but I missed them all.</p>]]></description>
+    <description><![CDATA[<p>While building my <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">Stoic Display</a> I run into an issue that consumed me a lot of time. As it always happens with some bugs, in retrospect it was so obvious that it gets to the point of being embarrassing. All the clues were there in front of me, but I missed them all.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2020-02-15-The-story-of-the-invisible-CR</guid>
   </item>
 
@@ -432,7 +432,7 @@
     <link>https://yourdomain.com/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino</link>
     <pubDate>Sat, 28 Mar 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>Another turn in my journey building the <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">Stoic Display</a>. I wanted to launch a number of tasks on some recurrence. The most basic one being <code>showing a quote</code>.</p>]]></description>
+    <description><![CDATA[<p>Another turn in my journey building the <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">Stoic Display</a>. I wanted to launch a number of tasks on some recurrence. The most basic one being <code>showing a quote</code>.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino</guid>
   </item>
 
@@ -450,7 +450,7 @@
     <link>https://yourdomain.com/post/2020-05-11-Using-a-Watchdog-to-fix-all-issues</link>
     <pubDate>Mon, 11 May 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>My little <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">project</a> has become quite sophisticated now. I managed to code enough to fill 82% of Arduino's total program memory!</p>]]></description>
+    <description><![CDATA[<p>My little <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">project</a> has become quite sophisticated now. I managed to code enough to fill 82% of Arduino's total program memory!</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2020-05-11-Using-a-Watchdog-to-fix-all-issues</guid>
   </item>
 
@@ -459,7 +459,7 @@
     <link>https://yourdomain.com/post/2020-10-30-A-CLI-for-Arduino-followup</link>
     <pubDate>Fri, 30 Oct 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In a <a href="/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino.md">previous post</a> I described a simple approach for sending commands to an Arduino based project via the <code>Serial</code> interface.</p>]]></description>
+    <description><![CDATA[<p>In a <a href="/techblog/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino.md">previous post</a> I described a simple approach for sending commands to an Arduino based project via the <code>Serial</code> interface.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2020-10-30-A-CLI-for-Arduino-followup</guid>
   </item>
 
@@ -477,7 +477,7 @@
     <link>https://yourdomain.com/post/2021-04-04-Surprises-With-MFA-And_Device-Flow</link>
     <pubDate>Sun, 04 Apr 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>As I was experimenting with the <a href="/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges.md">SMS Broadcaster</a>, <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">one of my projects</a> stopped working suddenly.</p>]]></description>
+    <description><![CDATA[<p>As I was experimenting with the <a href="/techblog/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges.md">SMS Broadcaster</a>, <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">one of my projects</a> stopped working suddenly.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2021-04-04-Surprises-With-MFA-And_Device-Flow</guid>
   </item>
 
@@ -513,7 +513,7 @@
     <link>https://yourdomain.com/post/2021-09-25-OTA-updates-for-Arduino-Projects-Part-II</link>
     <pubDate>Sat, 25 Sep 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>A followup of the <a href="/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I.md">previous post</a> on OTA updates. The second step is getting the bits downloaded. I added downloading capabilities to the <code>HTTPRequest</code> implementation.</p>]]></description>
+    <description><![CDATA[<p>A followup of the <a href="/techblog/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I.md">previous post</a> on OTA updates. The second step is getting the bits downloaded. I added downloading capabilities to the <code>HTTPRequest</code> implementation.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2021-09-25-OTA-updates-for-Arduino-Projects-Part-II</guid>
   </item>
 
@@ -549,7 +549,7 @@
     <link>https://yourdomain.com/post/2022-01-18-the-dexcom-api-ii</link>
     <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>I <a href="/post/2021-08-14-exploring-the-dexcom-api.md">wrote before</a> about the Dexcom device for continuous glucose monitoring, and how you can use their API to login, obtain <code>access_token</code>.</p>]]></description>
+    <description><![CDATA[<p>I <a href="/techblog/post/2021-08-14-exploring-the-dexcom-api.md">wrote before</a> about the Dexcom device for continuous glucose monitoring, and how you can use their API to login, obtain <code>access_token</code>.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2022-01-18-the-dexcom-api-ii</guid>
   </item>
 
@@ -630,7 +630,7 @@
     <link>https://yourdomain.com/post/2023-08-14-An-OpenAI-written-pixelator</link>
     <pubDate>Mon, 14 Aug 2023 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>I continued to experiment with ChatGPT and <a href="/post/2023-07-28-More-programming-with-openai.md">my mosaic generator project</a> (a.k.a. Pixelator).</p>]]></description>
+    <description><![CDATA[<p>I continued to experiment with ChatGPT and <a href="/techblog/post/2023-07-28-More-programming-with-openai.md">my mosaic generator project</a> (a.k.a. Pixelator).</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2023-08-14-An-OpenAI-written-pixelator</guid>
   </item>
 
@@ -639,7 +639,7 @@
     <link>https://yourdomain.com/post/2023-09-03-Mosaic-generator-Part-II</link>
     <pubDate>Sun, 03 Sep 2023 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>This is Part II of my AI written mosaic generator in which I describe the algorithm I used to create the tiles. (Part I is described <a href="/post/2023-08-14-An-OpenAI-written-pixelator.md">here</a>).</p>]]></description>
+    <description><![CDATA[<p>This is Part II of my AI written mosaic generator in which I describe the algorithm I used to create the tiles. (Part I is described <a href="/techblog/post/2023-08-14-An-OpenAI-written-pixelator.md">here</a>).</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2023-09-03-Mosaic-generator-Part-II</guid>
   </item>
 
@@ -702,7 +702,7 @@
     <link>https://yourdomain.com/post/2025-05-09-A-CBUS-Module-for-Model-Railway-accesories-part-ii</link>
     <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In <a href="/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md">Part I</a>, I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.</p>]]></description>
+    <description><![CDATA[<p>In <a href="/techblog/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md">Part I</a>, I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.</p>]]></description>
     <guid isPermaLink="true">https://yourdomain.com/post/2025-05-09-A-CBUS-Module-for-Model-Railway-accesories-part-ii</guid>
   </item>
 </channel>
