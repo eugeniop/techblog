@@ -16,7 +16,7 @@ export default function generatePostsPlugin() {
       const POSTS_DIR = './public/posts'
       const OUTPUT_JSON = './public/posts/posts.json'
       const OUTPUT_RSS = './public/rss.xml'
-      const SITE_URL = 'https://yourdomain.com' // 🔁 CHANGE THIS
+      const SITE_URL = 'https://eugeniop.github.io/techblog'
 
 
       console.log(`🔍 BASE_URL set to: ${BASE_URL}`);
@@ -86,7 +86,7 @@ export default function generatePostsPlugin() {
 <channel>
   <title>Your Blog Title</title>
   <link>${SITE_URL}</link>
-  <description>A blog about Latin travel</description>
+  <description>eugeniop Tech Blog</description>
   <language>en-us</language>
   <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
   ${rssItems}
