@@ -54,7 +54,7 @@ function Home() {
     <div className="p-4 max-w-3xl mx-auto">
       <h1 className="text-3xl font-bold mb-4">eugeniop's Tech Blog</h1>
       <div className="mb-4">
-        <a href="/about" className="text-blue-600 underline">About</a>
+        <a href={import.meta.env.BASE_URL + "about"} className="text-blue-600 underline">About</a>
       </div>
 
       <input

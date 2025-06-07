@@ -8,6 +8,7 @@ import rehypeHighlight from 'rehype-highlight';
 import rehypeStringify from 'rehype-stringify'
 import remarkGfm from 'remark-gfm';
 import { formatDateWithOrdinal } from '../utils/formatDate'
+import remarkFixLinks from '../utils/remarkFixLinks.js'
 
 const posts = import.meta.glob('../posts/*.md', {
   query: '?raw',
@@ -35,6 +36,7 @@ function PostPage() {
       const { attributes: data, body: content } = fm(raw)
 
       const processed = await remark()
+        .use(remarkFixLinks)
         .use(remarkRehype, { allowDangerousHtml: true })
         .use(remarkGfm)
         .use(rehypeHighlight)

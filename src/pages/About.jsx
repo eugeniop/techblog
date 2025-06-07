@@ -18,7 +18,7 @@ I like lifting heavy things, because then everything seems light. I ride bikes a
           <p className="mb-2">
               Written and maintained by <strong>Eugenio Pace</strong>.
           </p><p className="mt-6">
-              <a href="/" className="text-blue-600 underline">← Home</a>
+              <a href={import.meta.env.BASE_URL} className="text-blue-600 underline">← Home</a>
           </p>
     </div>
   )
