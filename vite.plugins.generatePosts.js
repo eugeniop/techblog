@@ -4,15 +4,20 @@ import fm from 'front-matter'
 import { remark } from 'remark'
 import remarkRehype from 'remark-rehype'
 import rehypeStringify from 'rehype-stringify'
+import remarkFixLinks from './src/utils/remarkFixLinks.js'
 
 export default function generatePostsPlugin() {
   return {
     name: 'generate-posts-index',
     async buildStart() {
+
+      const BASE_URL = process.env.NODE_ENV === 'production' ? '/techblog/' : '/'
+
       const POSTS_DIR = './public/posts'
       const OUTPUT_JSON = './public/posts/posts.json'
       const OUTPUT_RSS = './public/rss.xml'
       const SITE_URL = 'https://yourdomain.com' // 🔁 CHANGE THIS
+
 
       if (!fs.existsSync(POSTS_DIR)) {
         console.warn(`⚠ No posts directory found at ${POSTS_DIR}`)
@@ -24,6 +29,7 @@ export default function generatePostsPlugin() {
       async function getExcerptHtml(body) {
         const firstPara = body.trim().split(/\n{2,}/)[0]
         const processed = await remark()
+          .use(remarkFixLinks, { base: BASE_URL })
           .use(remarkRehype)
           .use(rehypeStringify)
           .process(firstPara)

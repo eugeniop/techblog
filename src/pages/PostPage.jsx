@@ -36,7 +36,7 @@ function PostPage() {
       const { attributes: data, body: content } = fm(raw)
 
       const processed = await remark()
-        .use(remarkFixLinks)
+        .use(remarkFixLinks, { base: import.meta.env.BASE_URL || '/' })
         .use(remarkRehype, { allowDangerousHtml: true })
         .use(remarkGfm)
         .use(rehypeHighlight)
