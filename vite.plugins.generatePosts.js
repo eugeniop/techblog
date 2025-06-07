@@ -19,6 +19,8 @@ export default function generatePostsPlugin() {
       const SITE_URL = 'https://yourdomain.com' // 🔁 CHANGE THIS
 
 
+      console.log(`🔍 BASE_URL set to: ${BASE_URL}`);
+
       if (!fs.existsSync(POSTS_DIR)) {
         console.warn(`⚠ No posts directory found at ${POSTS_DIR}`)
         return
