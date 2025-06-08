@@ -11,12 +11,12 @@ export default function generatePostsPlugin() {
     name: 'generate-posts-index',
     async buildStart() {
 
-      const BASE_URL = process.env.NODE_ENV === 'production' ? '/techblog/' : '/'
+      const BASE_URL = process.env.NODE_ENV === 'production' ? '/' : '/'
 
       const POSTS_DIR = './public/posts'
       const OUTPUT_JSON = './public/posts/posts.json'
       const OUTPUT_RSS = './public/rss.xml'
-      const SITE_URL = 'https://eugeniop.github.io/techblog'
+      const SITE_URL = 'https://blog.eugeniopace.org'
 
 
       console.log(`🔍 BASE_URL set to: ${BASE_URL}`);

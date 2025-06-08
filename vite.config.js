@@ -6,7 +6,7 @@ import fs from 'fs'
 import path from 'path'
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/techblog/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/' : '/',
   plugins: [
     generatePostsPlugin(),
     react(),
