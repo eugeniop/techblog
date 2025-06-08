@@ -2,708 +2,708 @@
 <rss version="2.0">
 <channel>
   <title>Your Blog Title</title>
-  <link>https://yourdomain.com</link>
-  <description>A blog about Latin travel</description>
+  <link>https://blog.eugeniopace.org</link>
+  <description>eugeniop Tech Blog</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 07 Jun 2025 17:30:30 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 08 Jun 2025 17:55:20 GMT</lastBuildDate>
   
   <item>
     <title><![CDATA[Welcome!]]></title>
-    <link>https://yourdomain.com/post/2016-11-06-welcome</link>
+    <link>https://blog.eugeniopace.org/post/2016-11-06-welcome</link>
     <pubDate>Sun, 06 Nov 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Hi! Welcome to my tech blog. I'm usually working on multiple projects at the same time. This is the place I'm planning on using to publish about them.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2016-11-06-welcome</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2016-11-06-welcome</guid>
   </item>
 
   <item>
     <title><![CDATA[Trying out AWS IoT Button]]></title>
-    <link>https://yourdomain.com/post/2016-11-07-AWS-IoT-button</link>
+    <link>https://blog.eugeniopace.org/post/2016-11-07-AWS-IoT-button</link>
     <pubDate>Mon, 07 Nov 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2016-11-07-AWS-IoT-button</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2016-11-07-AWS-IoT-button</guid>
   </item>
 
   <item>
     <title><![CDATA[Building Secure Alexa Skills - Part I]]></title>
-    <link>https://yourdomain.com/post/2016-11-09-Alexa-Auth0</link>
+    <link>https://blog.eugeniopace.org/post/2016-11-09-Alexa-Auth0</link>
     <pubDate>Wed, 09 Nov 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2016-11-09-Alexa-Auth0</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2016-11-09-Alexa-Auth0</guid>
   </item>
 
   <item>
     <title><![CDATA[Building Secure Alexa Skills - Part II]]></title>
-    <link>https://yourdomain.com/post/2016-11-19-Alexa-Auth0-II</link>
+    <link>https://blog.eugeniopace.org/post/2016-11-19-Alexa-Auth0-II</link>
     <pubDate>Sat, 19 Nov 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2016-11-19-Alexa-Auth0-II</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2016-11-19-Alexa-Auth0-II</guid>
   </item>
 
   <item>
     <title><![CDATA[Building a simple data capturing device - Part I]]></title>
-    <link>https://yourdomain.com/post/2016-11-25-Building-a-simple-data-capturing-device-i</link>
+    <link>https://blog.eugeniopace.org/post/2016-11-25-Building-a-simple-data-capturing-device-i</link>
     <pubDate>Sat, 26 Nov 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>I'm building a simple data capture device for our family farm. I've experimented with a few devices before, but I've had trouble with both their usability and reliability.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2016-11-25-Building-a-simple-data-capturing-device-i</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2016-11-25-Building-a-simple-data-capturing-device-i</guid>
   </item>
 
   <item>
     <title><![CDATA[Building Secure Alexa Skills - Part III]]></title>
-    <link>https://yourdomain.com/post/2016-12-02-Alexa-Auth0-III</link>
+    <link>https://blog.eugeniopace.org/post/2016-12-02-Alexa-Auth0-III</link>
     <pubDate>Fri, 02 Dec 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2016-12-02-Alexa-Auth0-III</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2016-12-02-Alexa-Auth0-III</guid>
   </item>
 
   <item>
     <title><![CDATA[Building a simple data capturing device - Part II]]></title>
-    <link>https://yourdomain.com/post/2016-12-10-Building-a-simple-data-capturing-device-ii</link>
+    <link>https://blog.eugeniopace.org/post/2016-12-10-Building-a-simple-data-capturing-device-ii</link>
     <pubDate>Sat, 10 Dec 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In the <a href="/techblog/post/2016-11-25-Building-a-simple-data-capturing-device-i.markdown%25%7D">first part of this series</a> I introduced the basic hardware for a data capturing device.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2016-12-10-Building-a-simple-data-capturing-device-ii</guid>
+    <description><![CDATA[<p>In the <a href="/post/2016-11-25-Building-a-simple-data-capturing-device-i.markdown%25%7D">first part of this series</a> I introduced the basic hardware for a data capturing device.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2016-12-10-Building-a-simple-data-capturing-device-ii</guid>
   </item>
 
   <item>
     <title><![CDATA[Building a simple data capturing device - Part III]]></title>
-    <link>https://yourdomain.com/post/2016-12-17-Building-a-simple-data-capturing-device-iii</link>
+    <link>https://blog.eugeniopace.org/post/2016-12-17-Building-a-simple-data-capturing-device-iii</link>
     <pubDate>Sat, 17 Dec 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>With the basic modules and general architecture in place, it is time to build the heart (or the brain) of the device.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2016-12-17-Building-a-simple-data-capturing-device-iii</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2016-12-17-Building-a-simple-data-capturing-device-iii</guid>
   </item>
 
   <item>
     <title><![CDATA[A simple test harness for MBED based apps]]></title>
-    <link>https://yourdomain.com/post/2016-12-24-A-simple-test-harness-for-mbed</link>
+    <link>https://blog.eugeniopace.org/post/2016-12-24-A-simple-test-harness-for-mbed</link>
     <pubDate>Sat, 24 Dec 2016 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>With the basic architecture in place, I set on building a more automated way of verifying that I'm on the right track. There are a few unit test frameworks for C++ that I found googling around, but all seemed very complicated. I opted for a simpler approach.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2016-12-24-A-simple-test-harness-for-mbed</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2016-12-24-A-simple-test-harness-for-mbed</guid>
   </item>
 
   <item>
     <title><![CDATA[Using Webtask as an API gateway]]></title>
-    <link>https://yourdomain.com/post/2017-01-01-Webtask-as-api-gateway</link>
+    <link>https://blog.eugeniopace.org/post/2017-01-01-Webtask-as-api-gateway</link>
     <pubDate>Sun, 01 Jan 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-01-01-Webtask-as-api-gateway</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-01-01-Webtask-as-api-gateway</guid>
   </item>
 
   <item>
     <title><![CDATA[Using Webtask for a custom Passwordless connection in Auth0]]></title>
-    <link>https://yourdomain.com/post/2017-01-14-Webtask-as-api-gateway-passwordless</link>
+    <link>https://blog.eugeniopace.org/post/2017-01-14-Webtask-as-api-gateway-passwordless</link>
     <pubDate>Sat, 14 Jan 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-01-14-Webtask-as-api-gateway-passwordless</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-01-14-Webtask-as-api-gateway-passwordless</guid>
   </item>
 
   <item>
     <title><![CDATA[Interfacing MBED with a serial RFID Reader]]></title>
-    <link>https://yourdomain.com/post/2017-01-20-Interfacing-MBED-serial-rfid</link>
+    <link>https://blog.eugeniopace.org/post/2017-01-20-Interfacing-MBED-serial-rfid</link>
     <pubDate>Fri, 20 Jan 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>The data capture unit I'm building will use a serial <a href="http://www.priority1design.com.au/shopfront/index.php?main_page=product_info&#x26;products_id=18&#x26;zenid=galhvnekb48tsjd0d6alcfpgb1">RFID reader</a>.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-01-20-Interfacing-MBED-serial-rfid</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-01-20-Interfacing-MBED-serial-rfid</guid>
   </item>
 
   <item>
     <title><![CDATA[Pace Locomotive Works - Notes on building a model diesel engine from scratch]]></title>
-    <link>https://yourdomain.com/post/2017-01-30-Pace-Locomotive-Works</link>
+    <link>https://blog.eugeniopace.org/post/2017-01-30-Pace-Locomotive-Works</link>
     <pubDate>Mon, 30 Jan 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>I've decided to build a small (fake) diesel engine. I like those that were used in industrial complexes, or small rail yards. This is a type of engine that was meant for <strong>switching</strong> or <strong>shunting</strong> (if you are in the UK), rather than long trips.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-01-30-Pace-Locomotive-Works</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-01-30-Pace-Locomotive-Works</guid>
   </item>
 
   <item>
     <title><![CDATA[Securing an IVR with Auth0]]></title>
-    <link>https://yourdomain.com/post/2017-03-12-Securing-IVR-with-Auth0</link>
+    <link>https://blog.eugeniopace.org/post/2017-03-12-Securing-IVR-with-Auth0</link>
     <pubDate>Sun, 12 Mar 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-03-12-Securing-IVR-with-Auth0</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-03-12-Securing-IVR-with-Auth0</guid>
   </item>
 
   <item>
     <title><![CDATA[A Simple IVR with Webtask and Twilio]]></title>
-    <link>https://yourdomain.com/post/2017-03-17-A-Simple-IVR-with-Webtask-and-Twilio</link>
+    <link>https://blog.eugeniopace.org/post/2017-03-17-A-Simple-IVR-with-Webtask-and-Twilio</link>
     <pubDate>Fri, 17 Mar 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-03-17-A-Simple-IVR-with-Webtask-and-Twilio</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-03-17-A-Simple-IVR-with-Webtask-and-Twilio</guid>
   </item>
 
   <item>
     <title><![CDATA[Building a Nexmo app with Webtask]]></title>
-    <link>https://yourdomain.com/post/2017-03-26-Building-a-Nexmo-app-with-webtask</link>
+    <link>https://blog.eugeniopace.org/post/2017-03-26-Building-a-Nexmo-app-with-webtask</link>
     <pubDate>Sun, 26 Mar 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-03-26-Building-a-Nexmo-app-with-webtask</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-03-26-Building-a-Nexmo-app-with-webtask</guid>
   </item>
 
   <item>
     <title><![CDATA[Pace Locomotive Works - Part II - Control Panel]]></title>
-    <link>https://yourdomain.com/post/2017-04-15-Pace-Locomotive-Works-Part-ii-control-panel</link>
+    <link>https://blog.eugeniopace.org/post/2017-04-15-Pace-Locomotive-Works-Part-ii-control-panel</link>
     <pubDate>Sat, 15 Apr 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Last weekend I've got some time to work on our model engine again. I reviewed the original control panel I designed some time ago:</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-04-15-Pace-Locomotive-Works-Part-ii-control-panel</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-04-15-Pace-Locomotive-Works-Part-ii-control-panel</guid>
   </item>
 
   <item>
     <title><![CDATA[Securing a Google Cloud Endpoint API with Auth0]]></title>
-    <link>https://yourdomain.com/post/2017-06-10-securing-google-cloud-endpoint-api-with-auth0</link>
+    <link>https://blog.eugeniopace.org/post/2017-06-10-securing-google-cloud-endpoint-api-with-auth0</link>
     <pubDate>Sat, 10 Jun 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<h2>TL;DR</h2>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-06-10-securing-google-cloud-endpoint-api-with-auth0</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-06-10-securing-google-cloud-endpoint-api-with-auth0</guid>
   </item>
 
   <item>
     <title><![CDATA[Using Twilio and Auth0 Webtask to become a better stoic]]></title>
-    <link>https://yourdomain.com/post/2017-07-15-using-twilio-and-webtask-to-become-a-better-stoic</link>
+    <link>https://blog.eugeniopace.org/post/2017-07-15-using-twilio-and-webtask-to-become-a-better-stoic</link>
     <pubDate>Sat, 15 Jul 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-07-15-using-twilio-and-webtask-to-become-a-better-stoic</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-07-15-using-twilio-and-webtask-to-become-a-better-stoic</guid>
   </item>
 
   <item>
     <title><![CDATA[Fun with Stats - Tracking Sleep & Mood with Twilio and Webtask]]></title>
-    <link>https://yourdomain.com/post/2017-10-15-tracking-sleep-mood-with-twilio-and-webtask</link>
+    <link>https://blog.eugeniopace.org/post/2017-10-15-tracking-sleep-mood-with-twilio-and-webtask</link>
     <pubDate>Sun, 15 Oct 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-10-15-tracking-sleep-mood-with-twilio-and-webtask</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-10-15-tracking-sleep-mood-with-twilio-and-webtask</guid>
   </item>
 
   <item>
     <title><![CDATA[Controlling a NEST thermostat with SMS]]></title>
-    <link>https://yourdomain.com/post/2017-11-25-controlling-a-nest-thermostat-with-sms</link>
+    <link>https://blog.eugeniopace.org/post/2017-11-25-controlling-a-nest-thermostat-with-sms</link>
     <pubDate>Sat, 25 Nov 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>This new application, shows how to control a NEST thermostat with SMS messages via Twilio:</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-11-25-controlling-a-nest-thermostat-with-sms</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-11-25-controlling-a-nest-thermostat-with-sms</guid>
   </item>
 
   <item>
     <title><![CDATA[Controlling a NEST thermostat with SMS - Part II]]></title>
-    <link>https://yourdomain.com/post/2017-12-02-controlling-a-nest-thermostat-with-sms-part-ii</link>
+    <link>https://blog.eugeniopace.org/post/2017-12-02-controlling-a-nest-thermostat-with-sms-part-ii</link>
     <pubDate>Sat, 02 Dec 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>This is a short followup excercise in my <strong>SMS &#x3C;-> NEST</strong> integration: adding Phone verification.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-12-02-controlling-a-nest-thermostat-with-sms-part-ii</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-12-02-controlling-a-nest-thermostat-with-sms-part-ii</guid>
   </item>
 
   <item>
     <title><![CDATA[Interacting with a NEST Camera with SMS]]></title>
-    <link>https://yourdomain.com/post/2017-12-21-interacting-with-a-nest-camera-with-sms</link>
+    <link>https://blog.eugeniopace.org/post/2017-12-21-interacting-with-a-nest-camera-with-sms</link>
     <pubDate>Thu, 21 Dec 2017 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>In this post I'm expanding my experiments with the <a href="https://developers.nest.com/">NEST API</a> from thermostats to cameras.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2017-12-21-interacting-with-a-nest-camera-with-sms</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2017-12-21-interacting-with-a-nest-camera-with-sms</guid>
   </item>
 
   <item>
     <title><![CDATA[Simplyfing Webtask Configuration Management]]></title>
-    <link>https://yourdomain.com/post/2018-10-13-simplyfing-webtask-configuration-management</link>
+    <link>https://blog.eugeniopace.org/post/2018-10-13-simplyfing-webtask-configuration-management</link>
     <pubDate>Sat, 13 Oct 2018 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<blockquote>
 <p>Dec 27th, 2023 update: Webtasks have been deprecated.</p>
 </blockquote>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2018-10-13-simplyfing-webtask-configuration-management</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2018-10-13-simplyfing-webtask-configuration-management</guid>
   </item>
 
   <item>
     <title><![CDATA[The daily stoic quote service is changing]]></title>
-    <link>https://yourdomain.com/post/2019-01-27-the-daily-stoic-quote-service-is-changing</link>
+    <link>https://blog.eugeniopace.org/post/2019-01-27-the-daily-stoic-quote-service-is-changing</link>
     <pubDate>Sun, 27 Jan 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>You are likely reading this post because you are or were subscribed to my micro-application that sends an SMS with a daily quote from my favorite stoic philosophers.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-01-27-the-daily-stoic-quote-service-is-changing</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-01-27-the-daily-stoic-quote-service-is-changing</guid>
   </item>
 
   <item>
     <title><![CDATA[A Pill Tracker using AWS IoT and Twilio]]></title>
-    <link>https://yourdomain.com/post/2019-02-15-a-medicine-tracker-using-aws-iot-and-twilio</link>
+    <link>https://blog.eugeniopace.org/post/2019-02-15-a-medicine-tracker-using-aws-iot-and-twilio</link>
     <pubDate>Fri, 15 Feb 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>A couple of members in the family take regular pills every day. I wanted to give them a mechanism to:</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-02-15-a-medicine-tracker-using-aws-iot-and-twilio</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-02-15-a-medicine-tracker-using-aws-iot-and-twilio</guid>
   </item>
 
   <item>
     <title><![CDATA[Fun with Washington Public Transit APIs]]></title>
-    <link>https://yourdomain.com/post/2019-03-24-fun-with-washington-public-transit-apis</link>
+    <link>https://blog.eugeniopace.org/post/2019-03-24-fun-with-washington-public-transit-apis</link>
     <pubDate>Sun, 24 Mar 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>The sun is becoming a more frequent companion here in the Pacific Northwest. Days are longer, warmer and nature is noting the change too. A great time of the year to take any of the ferries in the Washington State Ferries fleet around Puget Sound. One of the cheapest cruises you can take.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-03-24-fun-with-washington-public-transit-apis</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-03-24-fun-with-washington-public-transit-apis</guid>
   </item>
 
   <item>
     <title><![CDATA[Calling Secure APIs From Arduino - Part I]]></title>
-    <link>https://yourdomain.com/post/2019-04-14-calling-secure-apis-from-arduino-part-i</link>
+    <link>https://blog.eugeniopace.org/post/2019-04-14-calling-secure-apis-from-arduino-part-i</link>
     <pubDate>Thu, 25 Apr 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>A new authentication flow is now available in Auth0, that allows devices with limited input capabilities (e.g., no keyboard or touch screens) to get an <code>access_token</code> that can be then used to call an API.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-04-14-calling-secure-apis-from-arduino-part-i</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-04-14-calling-secure-apis-from-arduino-part-i</guid>
   </item>
 
   <item>
     <title><![CDATA[Calling Secure APIs From Arduino - Part II]]></title>
-    <link>https://yourdomain.com/post/2019-05-25-calling-secure-apis-from-arduino-part-ii</link>
+    <link>https://blog.eugeniopace.org/post/2019-05-25-calling-secure-apis-from-arduino-part-ii</link>
     <pubDate>Sat, 25 May 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In <a href="/techblog/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown">the previous post</a>, I covered the printer. In this post, I focus on the API.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-05-25-calling-secure-apis-from-arduino-part-ii</guid>
+    <description><![CDATA[<p>In <a href="/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown">the previous post</a>, I covered the printer. In this post, I focus on the API.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-05-25-calling-secure-apis-from-arduino-part-ii</guid>
   </item>
 
   <item>
     <title><![CDATA[Experiments with e-Paper displays]]></title>
-    <link>https://yourdomain.com/post/2019-06-21-experiments-with-e-paper-displays</link>
+    <link>https://blog.eugeniopace.org/post/2019-06-21-experiments-with-e-paper-displays</link>
     <pubDate>Fri, 21 Jun 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>Our board member <a href="https://twitter.com/pvh">Peter Van Hardenberg</a> got me intrigued on e-Paper displays. So I went to <a href="http://adafruit.com">Adafruit</a> to check what was available for the <a href="https://www.adafruit.com/product/3010">Feather M0</a>. I figured it would be a nice extension to <a href="/techblog/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown">my original printer project</a>, to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-06-21-experiments-with-e-paper-displays</guid>
+    <description><![CDATA[<p>Our board member <a href="https://twitter.com/pvh">Peter Van Hardenberg</a> got me intrigued on e-Paper displays. So I went to <a href="http://adafruit.com">Adafruit</a> to check what was available for the <a href="https://www.adafruit.com/product/3010">Feather M0</a>. I figured it would be a nice extension to <a href="/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown">my original printer project</a>, to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-06-21-experiments-with-e-paper-displays</guid>
   </item>
 
   <item>
     <title><![CDATA[QRCode on Arduino]]></title>
-    <link>https://yourdomain.com/post/2019-07-01-qrcode-on-arduino</link>
+    <link>https://blog.eugeniopace.org/post/2019-07-01-qrcode-on-arduino</link>
     <pubDate>Mon, 01 Jul 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>For <a href="/techblog/post/2019-06-21-experiments-with-e-paper-displays.markdown">the e-Paper project I worked before</a> I had to generate a QR code. The QR code encodes the login URL. The idea is that you point a phone's camera to it. Modern phones are configured to scan QRCodes automagically with their cameras and prompt the user to open a URL (the login URL in my case). Pretty convenient.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-07-01-qrcode-on-arduino</guid>
+    <description><![CDATA[<p>For <a href="/post/2019-06-21-experiments-with-e-paper-displays.markdown">the e-Paper project I worked before</a> I had to generate a QR code. The QR code encodes the login URL. The idea is that you point a phone's camera to it. Modern phones are configured to scan QRCodes automagically with their cameras and prompt the user to open a URL (the login URL in my case). Pretty convenient.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-07-01-qrcode-on-arduino</guid>
   </item>
 
   <item>
     <title><![CDATA[First incursions into Computer Vision]]></title>
-    <link>https://yourdomain.com/post/2019-07-05-first-incursions-into-computer-vision</link>
+    <link>https://blog.eugeniopace.org/post/2019-07-05-first-incursions-into-computer-vision</link>
     <pubDate>Fri, 05 Jul 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>I took a few days off and decided to dive into a completely unexplored domain. With all the hype in ML and AI, I figured I would look into that first.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-07-05-first-incursions-into-computer-vision</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-07-05-first-incursions-into-computer-vision</guid>
   </item>
 
   <item>
     <title><![CDATA[An IVR for collecting rainfall data]]></title>
-    <link>https://yourdomain.com/post/2019-08-30-an-ivr-for-collecting-rainfall-data</link>
+    <link>https://blog.eugeniopace.org/post/2019-08-30-an-ivr-for-collecting-rainfall-data</link>
     <pubDate>Fri, 30 Aug 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>I put together a small app for collecting rainfall information. It is essential to get precise rainfall information in specific locations of our family farm, and the one practical way I found is just to allow people working in the fields to report it back via their phones.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-08-30-an-ivr-for-collecting-rainfall-data</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-08-30-an-ivr-for-collecting-rainfall-data</guid>
   </item>
 
   <item>
     <title><![CDATA[Notes on TLS connections with Arduino]]></title>
-    <link>https://yourdomain.com/post/2019-09-14-notes-on-tls-connections-with-arduino</link>
+    <link>https://blog.eugeniopace.org/post/2019-09-14-notes-on-tls-connections-with-arduino</link>
     <pubDate>Sat, 14 Sep 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<h2>TL;DR</h2>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-09-14-notes-on-tls-connections-with-arduino</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-09-14-notes-on-tls-connections-with-arduino</guid>
   </item>
 
   <item>
     <title><![CDATA[Building Katie. Our first real steam engine]]></title>
-    <link>https://yourdomain.com/post/2019-10-07-building-katie-our-first-real-steam-engine</link>
+    <link>https://blog.eugeniopace.org/post/2019-10-07-building-katie-our-first-real-steam-engine</link>
     <pubDate>Mon, 07 Oct 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>For a long time I wanted to build a steam engine. I've always been fascinated by trains in general, and steam engines in particular.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-10-07-building-katie-our-first-real-steam-engine</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-10-07-building-katie-our-first-real-steam-engine</guid>
   </item>
 
   <item>
     <title><![CDATA[Loading Express Route Handlers Using Naming Conventions]]></title>
-    <link>https://yourdomain.com/post/2019-11-15-loading-express-route-handlers-using-naming-conventions</link>
+    <link>https://blog.eugeniopace.org/post/2019-11-15-loading-express-route-handlers-using-naming-conventions</link>
     <pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>For a little project I've been working on, I wanted to load nodejs modules into an express router automagically, using naming conventions by just having folders in a predefined location.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-11-15-loading-express-route-handlers-using-naming-conventions</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-11-15-loading-express-route-handlers-using-naming-conventions</guid>
   </item>
 
   <item>
     <title><![CDATA[Art and geometry - Building the Auth0 Logo with Nanoleaf Panels - Part I]]></title>
-    <link>https://yourdomain.com/post/2019-12-07-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-i</link>
+    <link>https://blog.eugeniopace.org/post/2019-12-07-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-i</link>
     <pubDate>Sat, 07 Dec 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>A colleague of mine had a really nice backwall light art and I asked him what was it. It turned out to be a design based on <a href="https://nanoleaf.me/en/consumer-led-lighting/products/smarter-series/nanoleaf-light-panels-smarter-kit/">nanoleaf light panels</a></p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-12-07-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-i</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-12-07-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-i</guid>
   </item>
 
   <item>
     <title><![CDATA[Art and geometry - Building the Auth0 Logo with Nanoleaf Panels - Part II]]></title>
-    <link>https://yourdomain.com/post/2019-12-14-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-ii</link>
+    <link>https://blog.eugeniopace.org/post/2019-12-14-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-ii</link>
     <pubDate>Sat, 14 Dec 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Now that the basic design is ready, I need to build a base for each light panel. Not every supporting parallelogram needs to be the same. They all need to be the projected shape, but I can vary the height and even "convexity" to make an interesting installation.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-12-14-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-ii</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-12-14-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-ii</guid>
   </item>
 
   <item>
     <title><![CDATA[Lego Disney Train And Station]]></title>
-    <link>https://yourdomain.com/post/2019-12-28-lego-disneyt-train-and-station</link>
+    <link>https://blog.eugeniopace.org/post/2019-12-28-lego-disneyt-train-and-station</link>
     <pubDate>Sat, 28 Dec 2019 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>A family tradition for christmas / end of the year is to build a large Lego set as a team. This year, I surprised everyone with the <a href="https://www.lego.com/en-us/product/disney-train-and-station-71044">Lego Disney Train and Station</a>. It is a cool, very detailed set.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2019-12-28-lego-disneyt-train-and-station</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2019-12-28-lego-disneyt-train-and-station</guid>
   </item>
 
   <item>
     <title><![CDATA[A Display of Stoic Quotes using Arduino and e-Paper Display]]></title>
-    <link>https://yourdomain.com/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display</link>
+    <link>https://blog.eugeniopace.org/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display</link>
     <pubDate>Sat, 18 Jan 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>Some time ago, I was <a href="/techblog/post/2019-06-21-experiments-with-e-paper-displays.markdown">experimenting with e-paper displays</a> and built a prototype that would use an API to retrieve a quote (from my favorite stoic philosophers). Because I was calling an API, it was a good excuse to test the <a href="https://auth0.com/docs/flows/concepts/device-auth">Device Flow</a> authentication that <a href="https://auth0.com">Auth0</a> supports.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display</guid>
+    <description><![CDATA[<p>Some time ago, I was <a href="/post/2019-06-21-experiments-with-e-paper-displays.markdown">experimenting with e-paper displays</a> and built a prototype that would use an API to retrieve a quote (from my favorite stoic philosophers). Because I was calling an API, it was a good excuse to test the <a href="https://auth0.com/docs/flows/concepts/device-auth">Device Flow</a> authentication that <a href="https://auth0.com">Auth0</a> supports.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display</guid>
   </item>
 
   <item>
     <title><![CDATA[A Simple Command Line Interface for Arduino]]></title>
-    <link>https://yourdomain.com/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino</link>
+    <link>https://blog.eugeniopace.org/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino</link>
     <pubDate>Sat, 25 Jan 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In a <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">previous post</a> I described a simple display of quotes using an ePaper and an Arduino board. There's no interface (keyboard, buttons, touchscreen), so all interactions and configuration must happen through the terminal (via the USB connection).</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino</guid>
+    <description><![CDATA[<p>In a <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">previous post</a> I described a simple display of quotes using an ePaper and an Arduino board. There's no interface (keyboard, buttons, touchscreen), so all interactions and configuration must happen through the terminal (via the USB connection).</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino</guid>
   </item>
 
   <item>
     <title><![CDATA[The story of the invisible CR]]></title>
-    <link>https://yourdomain.com/post/2020-02-15-The-story-of-the-invisible-CR</link>
+    <link>https://blog.eugeniopace.org/post/2020-02-15-The-story-of-the-invisible-CR</link>
     <pubDate>Sat, 01 Feb 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>While building my <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">Stoic Display</a> I run into an issue that consumed me a lot of time. As it always happens with some bugs, in retrospect it was so obvious that it gets to the point of being embarrassing. All the clues were there in front of me, but I missed them all.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2020-02-15-The-story-of-the-invisible-CR</guid>
+    <description><![CDATA[<p>While building my <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">Stoic Display</a> I run into an issue that consumed me a lot of time. As it always happens with some bugs, in retrospect it was so obvious that it gets to the point of being embarrassing. All the clues were there in front of me, but I missed them all.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2020-02-15-The-story-of-the-invisible-CR</guid>
   </item>
 
   <item>
     <title><![CDATA[Art and geometry - Building the Auth0 Logo with Nanoleaf Panels - Part III]]></title>
-    <link>https://yourdomain.com/post/2020-03-09-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iii</link>
+    <link>https://blog.eugeniopace.org/post/2020-03-09-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iii</link>
     <pubDate>Mon, 09 Mar 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>I was able to make some progress this weekend, my parents were visiting so I enrolled them. We completed the frame:</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2020-03-09-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iii</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2020-03-09-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iii</guid>
   </item>
 
   <item>
     <title><![CDATA[Controling a Tesla car with SMS]]></title>
-    <link>https://yourdomain.com/post/2020-03-14-controlling-a-tesla-car-with-sms</link>
+    <link>https://blog.eugeniopace.org/post/2020-03-14-controlling-a-tesla-car-with-sms</link>
     <pubDate>Sat, 14 Mar 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Someone I know got a Tesla some time ago, an amazing car. I can't think of anything geekier. What can be geekier than a car that ships with auto-updates and ... an API! (albeit unofficial, more below).</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2020-03-14-controlling-a-tesla-car-with-sms</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2020-03-14-controlling-a-tesla-car-with-sms</guid>
   </item>
 
   <item>
     <title><![CDATA[A Very Simple Task Scheduler on Arduino]]></title>
-    <link>https://yourdomain.com/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino</link>
+    <link>https://blog.eugeniopace.org/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino</link>
     <pubDate>Sat, 28 Mar 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>Another turn in my journey building the <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">Stoic Display</a>. I wanted to launch a number of tasks on some recurrence. The most basic one being <code>showing a quote</code>.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino</guid>
+    <description><![CDATA[<p>Another turn in my journey building the <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">Stoic Display</a>. I wanted to launch a number of tasks on some recurrence. The most basic one being <code>showing a quote</code>.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino</guid>
   </item>
 
   <item>
     <title><![CDATA[Art and geometry - Building the Auth0 Logo with Nanoleaf Panels - Part IV]]></title>
-    <link>https://yourdomain.com/post/2020-04-05-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iv</link>
+    <link>https://blog.eugeniopace.org/post/2020-04-05-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iv</link>
     <pubDate>Sun, 05 Apr 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>A picture is worth a thousand words. So this post is all pictures and no words (6 thousand words equivalent):</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2020-04-05-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iv</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2020-04-05-art-and-geometry-building-the-auth0-logo-with-nanoleaf-panels-part-iv</guid>
   </item>
 
   <item>
     <title><![CDATA[Using a Watchdog to fix all issues]]></title>
-    <link>https://yourdomain.com/post/2020-05-11-Using-a-Watchdog-to-fix-all-issues</link>
+    <link>https://blog.eugeniopace.org/post/2020-05-11-Using-a-Watchdog-to-fix-all-issues</link>
     <pubDate>Mon, 11 May 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>My little <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">project</a> has become quite sophisticated now. I managed to code enough to fill 82% of Arduino's total program memory!</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2020-05-11-Using-a-Watchdog-to-fix-all-issues</guid>
+    <description><![CDATA[<p>My little <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">project</a> has become quite sophisticated now. I managed to code enough to fill 82% of Arduino's total program memory!</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2020-05-11-Using-a-Watchdog-to-fix-all-issues</guid>
   </item>
 
   <item>
     <title><![CDATA[A CLI for Arduino - followup]]></title>
-    <link>https://yourdomain.com/post/2020-10-30-A-CLI-for-Arduino-followup</link>
+    <link>https://blog.eugeniopace.org/post/2020-10-30-A-CLI-for-Arduino-followup</link>
     <pubDate>Fri, 30 Oct 2020 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In a <a href="/techblog/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino.md">previous post</a> I described a simple approach for sending commands to an Arduino based project via the <code>Serial</code> interface.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2020-10-30-A-CLI-for-Arduino-followup</guid>
+    <description><![CDATA[<p>In a <a href="/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino.md">previous post</a> I described a simple approach for sending commands to an Arduino based project via the <code>Serial</code> interface.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2020-10-30-A-CLI-for-Arduino-followup</guid>
   </item>
 
   <item>
     <title><![CDATA[A Broadcaster for SMS MFA Challenges]]></title>
-    <link>https://yourdomain.com/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges</link>
+    <link>https://blog.eugeniopace.org/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges</link>
     <pubDate>Mon, 29 Mar 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Many web applications now require MFA which is great to see. Some use time based tokens (TOTP), with application like Google Authenticator to enroll and generate them. Others use SMS messages which are not super secure but better than nothing I guess... Others use a combination: TOTP with SMS as fallback. Very few apps have the sophistication to allow multiple phones to be enrolled on a given account.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges</guid>
   </item>
 
   <item>
     <title><![CDATA[Surprises with MFA and Device Flow]]></title>
-    <link>https://yourdomain.com/post/2021-04-04-Surprises-With-MFA-And_Device-Flow</link>
+    <link>https://blog.eugeniopace.org/post/2021-04-04-Surprises-With-MFA-And_Device-Flow</link>
     <pubDate>Sun, 04 Apr 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>As I was experimenting with the <a href="/techblog/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges.md">SMS Broadcaster</a>, <a href="/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">one of my projects</a> stopped working suddenly.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2021-04-04-Surprises-With-MFA-And_Device-Flow</guid>
+    <description><![CDATA[<p>As I was experimenting with the <a href="/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges.md">SMS Broadcaster</a>, <a href="/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md">one of my projects</a> stopped working suddenly.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2021-04-04-Surprises-With-MFA-And_Device-Flow</guid>
   </item>
 
   <item>
     <title><![CDATA[To Proxy Or Not]]></title>
-    <link>https://yourdomain.com/post/2021-06-19-To-Proxy-Or-Not</link>
+    <link>https://blog.eugeniopace.org/post/2021-06-19-To-Proxy-Or-Not</link>
     <pubDate>Sat, 19 Jun 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>SSL / TLS support on small footprint Arduino boards like the Adafruit M0 has been somewhat tricky, with missing documentation, rather poor troubleshooting, or both. Perhaps it is just that I have limited knowledge of all the various versions, variations and flavours of TLS/signing algorithms, etc.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2021-06-19-To-Proxy-Or-Not</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2021-06-19-To-Proxy-Or-Not</guid>
   </item>
 
   <item>
     <title><![CDATA[Exploring the Dexcom API]]></title>
-    <link>https://yourdomain.com/post/2021-08-14-exploring-the-dexcom-api</link>
+    <link>https://blog.eugeniopace.org/post/2021-08-14-exploring-the-dexcom-api</link>
     <pubDate>Sat, 14 Aug 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Someone I know is using the Dexcom G6 CGM device (CGM = Continuous Glucose Monitoring). It is a pretty amazing device. It takes a glucose measurement every 5 min without requiring you to prick your finger and using strips. I'm told it is life changing for people who have diabetes and I can see why.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2021-08-14-exploring-the-dexcom-api</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2021-08-14-exploring-the-dexcom-api</guid>
   </item>
 
   <item>
     <title><![CDATA[OTA Updates for Arduino Projects - Part I]]></title>
-    <link>https://yourdomain.com/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I</link>
+    <link>https://blog.eugeniopace.org/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I</link>
     <pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Today I started researching options for "Over The Air" (OTA) updates for my Arduino based project. Until now whenever I need to update the sketch I simply connect the board to my computer, compile and upload using the Arduino IDE. It works well, but for a "real" project it would not be practical.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I</guid>
   </item>
 
   <item>
     <title><![CDATA[OTA Updates for Arduino Projects - Part II]]></title>
-    <link>https://yourdomain.com/post/2021-09-25-OTA-updates-for-Arduino-Projects-Part-II</link>
+    <link>https://blog.eugeniopace.org/post/2021-09-25-OTA-updates-for-Arduino-Projects-Part-II</link>
     <pubDate>Sat, 25 Sep 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>A followup of the <a href="/techblog/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I.md">previous post</a> on OTA updates. The second step is getting the bits downloaded. I added downloading capabilities to the <code>HTTPRequest</code> implementation.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2021-09-25-OTA-updates-for-Arduino-Projects-Part-II</guid>
+    <description><![CDATA[<p>A followup of the <a href="/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I.md">previous post</a> on OTA updates. The second step is getting the bits downloaded. I added downloading capabilities to the <code>HTTPRequest</code> implementation.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2021-09-25-OTA-updates-for-Arduino-Projects-Part-II</guid>
   </item>
 
   <item>
     <title><![CDATA[OTA Updates for Arduino Projects - Part III]]></title>
-    <link>https://yourdomain.com/post/2021-10-09-OTA-updates-for-Arduino-Projects-Part-III</link>
+    <link>https://blog.eugeniopace.org/post/2021-10-09-OTA-updates-for-Arduino-Projects-Part-III</link>
     <pubDate>Sat, 09 Oct 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>In this post of the "OTA Updates" series, I am covering automating the build. Until now, I've been always compiling sketches using the IDE. It works great and for this projects, I think the experience has been great, even when my project grew to +30 files.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2021-10-09-OTA-updates-for-Arduino-Projects-Part-III</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2021-10-09-OTA-updates-for-Arduino-Projects-Part-III</guid>
   </item>
 
   <item>
     <title><![CDATA[OTA Updates for Arduino Projects - Part IV]]></title>
-    <link>https://yourdomain.com/post/2021-11-06-OTA-updates-for-Arduino-Projects-Part-IV</link>
+    <link>https://blog.eugeniopace.org/post/2021-11-06-OTA-updates-for-Arduino-Projects-Part-IV</link>
     <pubDate>Sat, 06 Nov 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Continuing with my series on OTA updates for my project, this time I'll cover building the back-end. The hardest piece was comparing versions (following the <code>MAJOR.MINOR.PATCH</code> format). Thanks <a href="https://stackoverflow.com/">StackOverflow</a> for some good ideas on how to do it.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2021-11-06-OTA-updates-for-Arduino-Projects-Part-IV</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2021-11-06-OTA-updates-for-Arduino-Projects-Part-IV</guid>
   </item>
 
   <item>
     <title><![CDATA[A CLI for Arduino revisited]]></title>
-    <link>https://yourdomain.com/post/2021-11-26-A-CLI-for-Arduino-Revisited</link>
+    <link>https://blog.eugeniopace.org/post/2021-11-26-A-CLI-for-Arduino-Revisited</link>
     <pubDate>Fri, 26 Nov 2021 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>A <a href="https://disqus.com/by/edgarbonet/?">reader</a> of this blog pointed out that my implementation of the Arduino CLI was using memory sub-optimally. He also wrote my implementation would not work on an Arduino UNO. I don't have one, so I cannot test it.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2021-11-26-A-CLI-for-Arduino-Revisited</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2021-11-26-A-CLI-for-Arduino-Revisited</guid>
   </item>
 
   <item>
     <title><![CDATA[The Dexcom API - Part II]]></title>
-    <link>https://yourdomain.com/post/2022-01-18-the-dexcom-api-ii</link>
+    <link>https://blog.eugeniopace.org/post/2022-01-18-the-dexcom-api-ii</link>
     <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>I <a href="/techblog/post/2021-08-14-exploring-the-dexcom-api.md">wrote before</a> about the Dexcom device for continuous glucose monitoring, and how you can use their API to login, obtain <code>access_token</code>.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2022-01-18-the-dexcom-api-ii</guid>
+    <description><![CDATA[<p>I <a href="/post/2021-08-14-exploring-the-dexcom-api.md">wrote before</a> about the Dexcom device for continuous glucose monitoring, and how you can use their API to login, obtain <code>access_token</code>.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2022-01-18-the-dexcom-api-ii</guid>
   </item>
 
   <item>
     <title><![CDATA[Running scheduled tasks in Heroku]]></title>
-    <link>https://yourdomain.com/post/2022-04-02-running-scheduled-tasks-in-heroku</link>
+    <link>https://blog.eugeniopace.org/post/2022-04-02-running-scheduled-tasks-in-heroku</link>
     <pubDate>Sat, 02 Apr 2022 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Many of my projects often times have a background job that runs on a schedule:</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2022-04-02-running-scheduled-tasks-in-heroku</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2022-04-02-running-scheduled-tasks-in-heroku</guid>
   </item>
 
   <item>
     <title><![CDATA[Experiments with Vestaboard]]></title>
-    <link>https://yourdomain.com/post/2022-05-09-experiments-with-vestaboard</link>
+    <link>https://blog.eugeniopace.org/post/2022-05-09-experiments-with-vestaboard</link>
     <pubDate>Mon, 09 May 2022 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>A few weeks ago I finally got a <a href="https://www.vestaboard.com/">Vestaboard</a> after a long wait. It is a beautiful piece of hardware. Very well built, super high quality. And it brings memories of standing in train stations and airports long time ago.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2022-05-09-experiments-with-vestaboard</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2022-05-09-experiments-with-vestaboard</guid>
   </item>
 
   <item>
     <title><![CDATA[An opinionated HTTP Client for Arduino]]></title>
-    <link>https://yourdomain.com/post/2022-05-16-An-opinionanted-http-client-for-arduino</link>
+    <link>https://blog.eugeniopace.org/post/2022-05-16-An-opinionanted-http-client-for-arduino</link>
     <pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>There are a few HTTP libraries available for the Arduino platform. I decided against using any of them because:</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2022-05-16-An-opinionanted-http-client-for-arduino</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2022-05-16-An-opinionanted-http-client-for-arduino</guid>
   </item>
 
   <item>
     <title><![CDATA[Experiments with Arduino Stream class]]></title>
-    <link>https://yourdomain.com/post/2022-07-09-Experiments-with-arduino-stream-class</link>
+    <link>https://blog.eugeniopace.org/post/2022-07-09-Experiments-with-arduino-stream-class</link>
     <pubDate>Sat, 09 Jul 2022 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>In my Arduino projects a lot of the ends up being string manipulation. A good example is constructing the response objects for a REST API. This ends up being a bunch of concatenations, <code>sprintf</code>, etc.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2022-07-09-Experiments-with-arduino-stream-class</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2022-07-09-Experiments-with-arduino-stream-class</guid>
   </item>
 
   <item>
     <title><![CDATA[The button that pressed itself (not)]]></title>
-    <link>https://yourdomain.com/post/2022-09-05-Unexpected-interference-from-inpout-pins</link>
+    <link>https://blog.eugeniopace.org/post/2022-09-05-Unexpected-interference-from-inpout-pins</link>
     <pubDate>Mon, 05 Sep 2022 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>I recently bought a new (larger) e-Ink display from Adafruit: <a href="https://www.adafruit.com/product/4777">2.9" ThinkInk FeatherWing</a>. It comes with the usual SD card, memory and differently from the previous versions with 3 convenient buttons.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2022-09-05-Unexpected-interference-from-inpout-pins</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2022-09-05-Unexpected-interference-from-inpout-pins</guid>
   </item>
 
   <item>
     <title><![CDATA[A glimpse into the future?]]></title>
-    <link>https://yourdomain.com/post/2022-12-06-A-Glimpse-into-the-future</link>
+    <link>https://blog.eugeniopace.org/post/2022-12-06-A-Glimpse-into-the-future</link>
     <pubDate>Tue, 06 Dec 2022 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>My database of quotes is full of colorful English translations. Most of them are very old. Lot's of "thee" and "thou", mixed up with "thy" and "wilst". The quotes might sound more profund perhaps, but... <em>philosophy is for living, not just for learning...</em>.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2022-12-06-A-Glimpse-into-the-future</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2022-12-06-A-Glimpse-into-the-future</guid>
   </item>
 
   <item>
     <title><![CDATA[Rethinking programming with OpenAI]]></title>
-    <link>https://yourdomain.com/post/2023-03-26-rethinking-programming-with-openai</link>
+    <link>https://blog.eugeniopace.org/post/2023-03-26-rethinking-programming-with-openai</link>
     <pubDate>Sun, 26 Mar 2023 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>OpenAI released a new version of their API, which (according to what is advertised) is 90% cheaper, faster, and more efficient. I am all for efficiency so I decided to upgrade my implementation from <code>text-davinci-003</code> model to <code>ChatGPT3.5</code></p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2023-03-26-rethinking-programming-with-openai</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2023-03-26-rethinking-programming-with-openai</guid>
   </item>
 
   <item>
     <title><![CDATA[More Programming with OpenAI]]></title>
-    <link>https://yourdomain.com/post/2023-07-28-More-programming-with-openai</link>
+    <link>https://blog.eugeniopace.org/post/2023-07-28-More-programming-with-openai</link>
     <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>My son loves puzzles and Legos. He recently completed one Lego set that kind of combines both:</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2023-07-28-More-programming-with-openai</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2023-07-28-More-programming-with-openai</guid>
   </item>
 
   <item>
     <title><![CDATA[Pixelator co-written with OpenAI - Part I]]></title>
-    <link>https://yourdomain.com/post/2023-08-14-An-OpenAI-written-pixelator</link>
+    <link>https://blog.eugeniopace.org/post/2023-08-14-An-OpenAI-written-pixelator</link>
     <pubDate>Mon, 14 Aug 2023 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>I continued to experiment with ChatGPT and <a href="/techblog/post/2023-07-28-More-programming-with-openai.md">my mosaic generator project</a> (a.k.a. Pixelator).</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2023-08-14-An-OpenAI-written-pixelator</guid>
+    <description><![CDATA[<p>I continued to experiment with ChatGPT and <a href="/post/2023-07-28-More-programming-with-openai.md">my mosaic generator project</a> (a.k.a. Pixelator).</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2023-08-14-An-OpenAI-written-pixelator</guid>
   </item>
 
   <item>
     <title><![CDATA[Pixelator co-written with OpenAI - Part II]]></title>
-    <link>https://yourdomain.com/post/2023-09-03-Mosaic-generator-Part-II</link>
+    <link>https://blog.eugeniopace.org/post/2023-09-03-Mosaic-generator-Part-II</link>
     <pubDate>Sun, 03 Sep 2023 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>This is Part II of my AI written mosaic generator in which I describe the algorithm I used to create the tiles. (Part I is described <a href="/techblog/post/2023-08-14-An-OpenAI-written-pixelator.md">here</a>).</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2023-09-03-Mosaic-generator-Part-II</guid>
+    <description><![CDATA[<p>This is Part II of my AI written mosaic generator in which I describe the algorithm I used to create the tiles. (Part I is described <a href="/post/2023-08-14-An-OpenAI-written-pixelator.md">here</a>).</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2023-09-03-Mosaic-generator-Part-II</guid>
   </item>
 
   <item>
     <title><![CDATA[Adding Hardware handshake in Thermal Printer]]></title>
-    <link>https://yourdomain.com/post/2023-11-18-adding-hardware-handshake-thermal-printer</link>
+    <link>https://blog.eugeniopace.org/post/2023-11-18-adding-hardware-handshake-thermal-printer</link>
     <pubDate>Sat, 18 Nov 2023 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>I've been struggling to get my thermal printer to print bitmaps correctly. More specifically QRCodes.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2023-11-18-adding-hardware-handshake-thermal-printer</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2023-11-18-adding-hardware-handshake-thermal-printer</guid>
   </item>
 
   <item>
     <title><![CDATA[Rethinking UIs in a world of AI]]></title>
-    <link>https://yourdomain.com/post/2023-12-20-rethiunking-ui-with-ai</link>
+    <link>https://blog.eugeniopace.org/post/2023-12-20-rethiunking-ui-with-ai</link>
     <pubDate>Thu, 21 Dec 2023 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Last post of 2023!</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2023-12-20-rethiunking-ui-with-ai</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2023-12-20-rethiunking-ui-with-ai</guid>
   </item>
 
   <item>
     <title><![CDATA[The life progress bar]]></title>
-    <link>https://yourdomain.com/post/2024-01-19-the-life-progress-bar</link>
+    <link>https://blog.eugeniopace.org/post/2024-01-19-the-life-progress-bar</link>
     <pubDate>Sun, 31 Dec 2023 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>A new year starts, and although arbitrary, because every day, every second, every instant a new year starts, it is only on rare occasions we get to celebrate alltogether.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2024-01-19-the-life-progress-bar</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2024-01-19-the-life-progress-bar</guid>
   </item>
 
   <item>
     <title><![CDATA[3D Printing parts for an old Märklin freight car]]></title>
-    <link>https://yourdomain.com/post/2025-02-02-3d-printing-parts-for-old-märklin-freight-car</link>
+    <link>https://blog.eugeniopace.org/post/2025-02-02-3d-printing-parts-for-old-märklin-freight-car</link>
     <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>I love seeing old trains back in action, and there's no better way to do that than by buying vintage pieces at a train show.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2025-02-02-3d-printing-parts-for-old-märklin-freight-car</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2025-02-02-3d-printing-parts-for-old-märklin-freight-car</guid>
   </item>
 
   <item>
     <title><![CDATA[POTS and the VS1053 Audio board for speech synthesis - Part 1]]></title>
-    <link>https://yourdomain.com/post/2025-02-11-POTS-VS1053</link>
+    <link>https://blog.eugeniopace.org/post/2025-02-11-POTS-VS1053</link>
     <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>Knowing I like old pieces of engineering, my family gifted me a fully functioning old rotary phone, identical to the one we had at our home growing up (for many years). It is a Siemens-Halske model built in Argentina probably in the early 1970's.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2025-02-11-POTS-VS1053</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2025-02-11-POTS-VS1053</guid>
   </item>
 
   <item>
     <title><![CDATA[A CBUS Module for Model Railway Accessories – Part I: Hardware]]></title>
-    <link>https://yourdomain.com/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories</link>
+    <link>https://blog.eugeniopace.org/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories</link>
     <pubDate>Fri, 02 May 2025 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
     <description><![CDATA[<p>My model railway club (<a href="https://ete-pnw.org">ETE</a>) is building a few new modules for our layout. One of them features a brewery, based on <a href="https://www.faller.de/en/miniature-worlds/busy-world-of-business/18124/veltins-brewery">this kit from Faller</a>. It’s a detailed model, and we’re lucky to have Alan—an expert diorama builder—bringing it to life. Great work, Alan!</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories</guid>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories</guid>
   </item>
 
   <item>
     <title><![CDATA[A CBUS Module for Model Railway Accessories – Part II: Software]]></title>
-    <link>https://yourdomain.com/post/2025-05-09-A-CBUS-Module-for-Model-Railway-accesories-part-ii</link>
+    <link>https://blog.eugeniopace.org/post/2025-05-09-A-CBUS-Module-for-Model-Railway-accesories-part-ii</link>
     <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
     <author>Eugenio Pace</author>
-    <description><![CDATA[<p>In <a href="/techblog/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md">Part I</a>, I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.</p>]]></description>
-    <guid isPermaLink="true">https://yourdomain.com/post/2025-05-09-A-CBUS-Module-for-Model-Railway-accesories-part-ii</guid>
+    <description><![CDATA[<p>In <a href="/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md">Part I</a>, I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.</p>]]></description>
+    <guid isPermaLink="true">https://blog.eugeniopace.org/post/2025-05-09-A-CBUS-Module-for-Model-Railway-accesories-part-ii</guid>
   </item>
 </channel>
 </rss>

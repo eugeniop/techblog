@@ -90,7 +90,7 @@
       "iot"
     ],
     "visible": true,
-    "excerpt": "<p>In the <a href=\"/techblog/post/2016-11-25-Building-a-simple-data-capturing-device-i.markdown%25%7D\">first part of this series</a> I introduced the basic hardware for a data capturing device.</p>",
+    "excerpt": "<p>In the <a href=\"/post/2016-11-25-Building-a-simple-data-capturing-device-i.markdown%25%7D\">first part of this series</a> I introduced the basic hardware for a data capturing device.</p>",
     "excerptPlain": "In the [first part of this series](/post/2016-11-25-Building-a-simple-data-capturing-device-i.markdown%}) I introduced the basic hardware for a data capturing device.",
     "extension": ".markdown"
   },
@@ -391,7 +391,7 @@
       "deviceflow"
     ],
     "visible": true,
-    "excerpt": "<p>In <a href=\"/techblog/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown\">the previous post</a>, I covered the printer. In this post, I focus on the API.</p>",
+    "excerpt": "<p>In <a href=\"/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown\">the previous post</a>, I covered the printer. In this post, I focus on the API.</p>",
     "excerptPlain": "In [the previous post](/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown), I covered the printer. In this post, I focus on the API.",
     "extension": ".markdown"
   },
@@ -405,7 +405,7 @@
       "eink"
     ],
     "visible": true,
-    "excerpt": "<p>Our board member <a href=\"https://twitter.com/pvh\">Peter Van Hardenberg</a> got me intrigued on e-Paper displays. So I went to <a href=\"http://adafruit.com\">Adafruit</a> to check what was available for the <a href=\"https://www.adafruit.com/product/3010\">Feather M0</a>. I figured it would be a nice extension to <a href=\"/techblog/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown\">my original printer project</a>, to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.</p>",
+    "excerpt": "<p>Our board member <a href=\"https://twitter.com/pvh\">Peter Van Hardenberg</a> got me intrigued on e-Paper displays. So I went to <a href=\"http://adafruit.com\">Adafruit</a> to check what was available for the <a href=\"https://www.adafruit.com/product/3010\">Feather M0</a>. I figured it would be a nice extension to <a href=\"/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown\">my original printer project</a>, to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.</p>",
     "excerptPlain": "Our board member [Peter Van Hardenberg](https://twitter.com/pvh) got me intrigued on e-Paper displays. So I went to [Adafruit](http://adafruit.com) to check what was available for the [Feather M0](https://www.adafruit.com/product/3010). I figured it would be a nice extension to [my original printer project](/post/2019-04-14-calling-secure-apis-from-arduino-part-i.markdown), to replace the printer with a display. Also gives me a chance to work on a low power project that can work on batteries for a long time. Low power consumption is one of the benefits of e-Paper, after all.",
     "extension": ".markdown"
   },
@@ -419,7 +419,7 @@
       "arduino"
     ],
     "visible": true,
-    "excerpt": "<p>For <a href=\"/techblog/post/2019-06-21-experiments-with-e-paper-displays.markdown\">the e-Paper project I worked before</a> I had to generate a QR code. The QR code encodes the login URL. The idea is that you point a phone's camera to it. Modern phones are configured to scan QRCodes automagically with their cameras and prompt the user to open a URL (the login URL in my case). Pretty convenient.</p>",
+    "excerpt": "<p>For <a href=\"/post/2019-06-21-experiments-with-e-paper-displays.markdown\">the e-Paper project I worked before</a> I had to generate a QR code. The QR code encodes the login URL. The idea is that you point a phone's camera to it. Modern phones are configured to scan QRCodes automagically with their cameras and prompt the user to open a URL (the login URL in my case). Pretty convenient.</p>",
     "excerptPlain": "For [the e-Paper project I worked before](/post/2019-06-21-experiments-with-e-paper-displays.markdown) I had to generate a QR code. The QR code encodes the login URL. The idea is that you point a phone's camera to it. Modern phones are configured to scan QRCodes automagically with their cameras and prompt the user to open a URL (the login URL in my case). Pretty convenient.",
     "extension": ".markdown"
   },
@@ -543,7 +543,7 @@
       "eink"
     ],
     "visible": true,
-    "excerpt": "<p>Some time ago, I was <a href=\"/techblog/post/2019-06-21-experiments-with-e-paper-displays.markdown\">experimenting with e-paper displays</a> and built a prototype that would use an API to retrieve a quote (from my favorite stoic philosophers). Because I was calling an API, it was a good excuse to test the <a href=\"https://auth0.com/docs/flows/concepts/device-auth\">Device Flow</a> authentication that <a href=\"https://auth0.com\">Auth0</a> supports.</p>",
+    "excerpt": "<p>Some time ago, I was <a href=\"/post/2019-06-21-experiments-with-e-paper-displays.markdown\">experimenting with e-paper displays</a> and built a prototype that would use an API to retrieve a quote (from my favorite stoic philosophers). Because I was calling an API, it was a good excuse to test the <a href=\"https://auth0.com/docs/flows/concepts/device-auth\">Device Flow</a> authentication that <a href=\"https://auth0.com\">Auth0</a> supports.</p>",
     "excerptPlain": "Some time ago, I was [experimenting with e-paper displays](/post/2019-06-21-experiments-with-e-paper-displays.markdown) and built a prototype that would use an API to retrieve a quote (from my favorite stoic philosophers). Because I was calling an API, it was a good excuse to test the [Device Flow](https://auth0.com/docs/flows/concepts/device-auth) authentication that [Auth0](https://auth0.com) supports.",
     "extension": ".md"
   },
@@ -558,7 +558,7 @@
       "cli"
     ],
     "visible": true,
-    "excerpt": "<p>In a <a href=\"/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">previous post</a> I described a simple display of quotes using an ePaper and an Arduino board. There's no interface (keyboard, buttons, touchscreen), so all interactions and configuration must happen through the terminal (via the USB connection).</p>",
+    "excerpt": "<p>In a <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">previous post</a> I described a simple display of quotes using an ePaper and an Arduino board. There's no interface (keyboard, buttons, touchscreen), so all interactions and configuration must happen through the terminal (via the USB connection).</p>",
     "excerptPlain": "In a [previous post](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md) I described a simple display of quotes using an ePaper and an Arduino board. There's no interface (keyboard, buttons, touchscreen), so all interactions and configuration must happen through the terminal (via the USB connection).",
     "extension": ".md"
   },
@@ -572,7 +572,7 @@
       "eink"
     ],
     "visible": true,
-    "excerpt": "<p>While building my <a href=\"/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">Stoic Display</a> I run into an issue that consumed me a lot of time. As it always happens with some bugs, in retrospect it was so obvious that it gets to the point of being embarrassing. All the clues were there in front of me, but I missed them all.</p>",
+    "excerpt": "<p>While building my <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">Stoic Display</a> I run into an issue that consumed me a lot of time. As it always happens with some bugs, in retrospect it was so obvious that it gets to the point of being embarrassing. All the clues were there in front of me, but I missed them all.</p>",
     "excerptPlain": "While building my [Stoic Display](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md) I run into an issue that consumed me a lot of time. As it always happens with some bugs, in retrospect it was so obvious that it gets to the point of being embarrassing. All the clues were there in front of me, but I missed them all.",
     "extension": ".md"
   },
@@ -613,7 +613,7 @@
       "arduino"
     ],
     "visible": true,
-    "excerpt": "<p>Another turn in my journey building the <a href=\"/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">Stoic Display</a>. I wanted to launch a number of tasks on some recurrence. The most basic one being <code>showing a quote</code>.</p>",
+    "excerpt": "<p>Another turn in my journey building the <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">Stoic Display</a>. I wanted to launch a number of tasks on some recurrence. The most basic one being <code>showing a quote</code>.</p>",
     "excerptPlain": "Another turn in my journey building the [Stoic Display](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md). I wanted to launch a number of tasks on some recurrence. The most basic one being `showing a quote`.",
     "extension": ".md"
   },
@@ -640,7 +640,7 @@
       "arduino"
     ],
     "visible": true,
-    "excerpt": "<p>My little <a href=\"/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">project</a> has become quite sophisticated now. I managed to code enough to fill 82% of Arduino's total program memory!</p>",
+    "excerpt": "<p>My little <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">project</a> has become quite sophisticated now. I managed to code enough to fill 82% of Arduino's total program memory!</p>",
     "excerptPlain": "My little [project](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md) has become quite sophisticated now. I managed to code enough to fill 82% of Arduino's total program memory!",
     "extension": ".md"
   },
@@ -653,7 +653,7 @@
       "arduino"
     ],
     "visible": true,
-    "excerpt": "<p>In a <a href=\"/techblog/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino.md\">previous post</a> I described a simple approach for sending commands to an Arduino based project via the <code>Serial</code> interface.</p>",
+    "excerpt": "<p>In a <a href=\"/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino.md\">previous post</a> I described a simple approach for sending commands to an Arduino based project via the <code>Serial</code> interface.</p>",
     "excerptPlain": "In a [previous post](/post/2020-01-25-A-Simple-Command-Line-Interface-for-Arduino.md) I described a simple approach for sending commands to an Arduino based project via the `Serial` interface.",
     "extension": ".md"
   },
@@ -681,7 +681,7 @@
       "otp"
     ],
     "visible": true,
-    "excerpt": "<p>As I was experimenting with the <a href=\"/techblog/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges.md\">SMS Broadcaster</a>, <a href=\"/techblog/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">one of my projects</a> stopped working suddenly.</p>",
+    "excerpt": "<p>As I was experimenting with the <a href=\"/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges.md\">SMS Broadcaster</a>, <a href=\"/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md\">one of my projects</a> stopped working suddenly.</p>",
     "excerptPlain": "As I was experimenting with the [SMS Broadcaster](/post/2021-03-29-A-Broadcaster-For-SMS-MFA-Challenges.md), [one of my projects](/post/2020-01-18-A-Display-of-Stoic-Quotes-using-Arduino-and-e-Paper-Display.md) stopped working suddenly.",
     "extension": ".md"
   },
@@ -735,7 +735,7 @@
       "ota"
     ],
     "visible": true,
-    "excerpt": "<p>A followup of the <a href=\"/techblog/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I.md\">previous post</a> on OTA updates. The second step is getting the bits downloaded. I added downloading capabilities to the <code>HTTPRequest</code> implementation.</p>",
+    "excerpt": "<p>A followup of the <a href=\"/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I.md\">previous post</a> on OTA updates. The second step is getting the bits downloaded. I added downloading capabilities to the <code>HTTPRequest</code> implementation.</p>",
     "excerptPlain": "A followup of the [previous post](/post/2021-09-04-OTA-updates-for-Arduino-Projects-Part-I.md) on OTA updates. The second step is getting the bits downloaded. I added downloading capabilities to the `HTTPRequest` implementation.",
     "extension": ".md"
   },
@@ -789,7 +789,7 @@
       "dexcom"
     ],
     "visible": true,
-    "excerpt": "<p>I <a href=\"/techblog/post/2021-08-14-exploring-the-dexcom-api.md\">wrote before</a> about the Dexcom device for continuous glucose monitoring, and how you can use their API to login, obtain <code>access_token</code>.</p>",
+    "excerpt": "<p>I <a href=\"/post/2021-08-14-exploring-the-dexcom-api.md\">wrote before</a> about the Dexcom device for continuous glucose monitoring, and how you can use their API to login, obtain <code>access_token</code>.</p>",
     "excerptPlain": "I [wrote before](/post/2021-08-14-exploring-the-dexcom-api.md) about the Dexcom device for continuous glucose monitoring, and how you can use their API to login, obtain `access_token`.",
     "extension": ".md"
   },
@@ -909,7 +909,7 @@
       "lego"
     ],
     "visible": true,
-    "excerpt": "<p>I continued to experiment with ChatGPT and <a href=\"/techblog/post/2023-07-28-More-programming-with-openai.md\">my mosaic generator project</a> (a.k.a. Pixelator).</p>",
+    "excerpt": "<p>I continued to experiment with ChatGPT and <a href=\"/post/2023-07-28-More-programming-with-openai.md\">my mosaic generator project</a> (a.k.a. Pixelator).</p>",
     "excerptPlain": "I continued to experiment with ChatGPT and [my mosaic generator project](/post/2023-07-28-More-programming-with-openai.md) (a.k.a. Pixelator).",
     "extension": ".md"
   },
@@ -923,7 +923,7 @@
       "lego"
     ],
     "visible": true,
-    "excerpt": "<p>This is Part II of my AI written mosaic generator in which I describe the algorithm I used to create the tiles. (Part I is described <a href=\"/techblog/post/2023-08-14-An-OpenAI-written-pixelator.md\">here</a>).</p>",
+    "excerpt": "<p>This is Part II of my AI written mosaic generator in which I describe the algorithm I used to create the tiles. (Part I is described <a href=\"/post/2023-08-14-An-OpenAI-written-pixelator.md\">here</a>).</p>",
     "excerptPlain": "This is Part II of my AI written mosaic generator in which I describe the algorithm I used to create the tiles. (Part I is described [here](/post/2023-08-14-An-OpenAI-written-pixelator.md)).",
     "extension": ".md"
   },
@@ -1016,7 +1016,7 @@
       "trains"
     ],
     "visible": true,
-    "excerpt": "<p>In <a href=\"/techblog/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md\">Part I</a>, I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.</p>",
+    "excerpt": "<p>In <a href=\"/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md\">Part I</a>, I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.</p>",
     "excerptPlain": "In [Part I](/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md), I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.",
     "extension": ".md"
   }
