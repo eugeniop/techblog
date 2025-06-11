@@ -9,7 +9,7 @@ import './index.css'
 import 'highlight.js/styles/atom-one-dark.css'
 
 const basename =
-  import.meta.env.MODE === 'production' ? '/techblog' : '/'
+  import.meta.env.MODE === 'production' ? '/' : '/'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
