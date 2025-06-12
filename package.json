@@ -1,6 +1,6 @@
 {
-  "homepage": "https://eugeniop.github.io/techblog",
-  "name": "react-blog",
+  "homepage": "https:blog.eugeniopace.org",
+  "name": "eugeniop TechBlog",
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
