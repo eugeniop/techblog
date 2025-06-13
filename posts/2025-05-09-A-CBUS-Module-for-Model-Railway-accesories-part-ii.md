@@ -8,7 +8,7 @@ visible: false
 author: Eugenio Pace
 ---
 
-In [Part I](/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md), I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.
+In [Part I](/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md), I described the hardware for a CBUS-enabled accessory module designed to animate our [club](https://ete-pnw.org) model railway brewery—with sound, lights, and motion.
 
 In this post, I’ll go through the software that ties everything together.
 
@@ -18,10 +18,10 @@ In this post, I’ll go through the software that ties everything together.
 
 Let’s recap what the software needs to do:
 
-- Respond to CBUS *ACON/ACOF* messages and activate outputs accordingly.
+- Respond to CBUS *ACON/ACOF* messages and activate/deactivate outputs accordingly.
 - Activate a relay to power motors and lights.
 - Play audio clips from an SD card.
-- Activate the same from local buttons, such as those on the edges of the layout.
+- Activate the same from a local push button on the edges of the layout.
 - Ensure reliable behavior across power cycles and long sessions.
 - Provide debug/log output for testing.
 
@@ -31,7 +31,7 @@ For Arduino based projects I also like implementing a simple command line interf
 
 ## High-Level Architecture
 
-Here’s a rough breakdown of the architecture:
+Here’s a rough breakdown of the main components:
 
 ```mermaid
 graph TD;
@@ -47,7 +47,7 @@ graph TD;
 
 ### CBUS interface
 
-Implementing the CBUS interface is straightforward, as it is mainly an implementation over CAN. The [Adafruit_MCP2515 library]() takes care of all the low-level details. The module is purely a *consumer* of events, so all it needs to do is check for a new CAN packet. CBUS packets we are interested in are:
+Implementing the CBUS interface is straightforward, as it is mainly an implementation over CAN. The [Adafruit_MCP2515 library]() takes care of all the low-level details. The module is purely a *consumer* of events, so all it needs to do is check for a new CAN packet. CBUS packets:
 
 ```c++
 typedef struct {
@@ -62,7 +62,12 @@ typedef struct {
 } __attribute__((packed)) CBUSPacket;
 ```
 
-`opcode` we respond to will either be `ACON` (`0x90`) or `ACOF` (`0x91`). Everything else, we discard. The next 2 bytes are the 16 bits corresponding to the *Node Number* (where the event originates), and the other 2 encode the *Event Number*. CAN packets are max 8 bytes, so the 3 extra ones in the `CBUSPacket`  are just fillers. 
+Tehre are only two `opcode`s we respond to:
+
+* *`ACON`* (`0x90`) - Accesory ON.
+* *`ACOF`* (`0x91`) - Accessory OFF. 
+
+Everything else, we discard. The next two bytes are the 16 bits corresponding to the *Node Number* (where the event originates), and the other 2 encode the *Event Number*. CAN packets are max 8 bytes, so the 3 extra ones in the `CBUSPacket`  are just fillers, not used in the ACON/ACOF pair.
 
 With this in mind, the `CBUS` class is very simple:
 
@@ -176,13 +181,19 @@ RELAY_EN=3
 002=5
 003=7
 steam=8
+
+# "Default" soundtrack to play (when the push button is pressed)
+002=-1
+
 ```
 
 When the board boots, it first reads the file and stores this information in memory. Then, as events arrive, we just check if it matches any combination. In the example, any event coming with a *node number* (**NN**) different from `128` is ignored. If the *node number* is correct, and the *event number* is *3*, then we address the relay. Then we check if the event number match any sound tracks to play.
 
-> CBUS has a multiple ways of bootstraping configuration, including one that puts the device in _"learning mode"_, much like universal remote controls. In our cause, I thought editing this file was straightforward so I opted out of this mode.
+> CBUS has a multiple ways of bootstrapping configuration, including one that puts the device in _"learning mode"_, much like universal remote controls. In our cause, I thought editing this file was straightforward so I opted out of this mode. In the future, we might want top consider a more sophisticated approach.
 
 Also note that a single event can trigger *both* the relay and a specific sound track.
+
+In my implementation, the track name is really a shortcut to a file stored in the SD card. _"001"_ maps to _"001.mp3"_. Adding the extension is automatically handled.
 
 
 ### The task manager
@@ -190,21 +201,25 @@ Also note that a single event can trigger *both* the relay and a specific sound 
 The module needs to periodically check for:
 
 1. CBUS commands
-2. Any key presses
+2. Any button presses
+3. If the button is pressed, check when to shutdown the activity (in this case, by a predefined amount of time)
 3. Commands from the terminal
 
-I could simply check for either in the main `loop` function, but I built [a simple scheduler I described some time ago](/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino.md), that allows me to call functions on some predefined time. The thinking is that over time we might want to add some automated scheduling of actions _autonomously_ (e.g. turn on lights/play sound every 15 minutes). 
-
-The implementation evolved over time and both simplified it, and made it a little bit more powerful.
+I could simply check for either in the main `loop` function, but I built [a simple scheduler I described some time ago](/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino.md), that allows me to call functions on some predefined time. The thinking is that over time we might want to add some automated scheduling of actions _autonomously_ (e.g. turn on lights/play sound every 15 minutes), or event _send_ an event ourselves. The implementation evolved over time and I both simplified it, and made it a little bit more powerful.
 
 In this case, these 2 actions run every second (which seems enough):
 
 ```c++
-  dispatcher.add("CBUS", "Looks for CBUS Commands", &Actions::checkCBUSCommandAction, 1);
-  dispatcher.add("KEYS", "Check for keys", &Actions::checkKeysAction, 1);
+  dispatcher.add("CBUS", "Looks for CBUS Commands", &Actions::checkCBUSCommandAction, SEC_TO_TICKS(1));
+  dispatcher.add("KEYS", "Check for Pushbutton press", &Actions::checkKeysAction, HALF_SECOND);
+  dispatcher.add("ACTI", "Checks module activity", &Actions::checkPushButtonActivity, HALF_SECOND);
 ```
 
-And the `checkCBUSCommandAction`:
+Every second, we check for CBUS commands that might have been sent. Every 1/2 second we check the button is pressed, and when it had been pressed we check whether we need to shut it down.
+
+#### Checking for CBUS commands
+
+The `checkCBUSCommandAction`:
 
 ```c++
 void checkCBUSCommandAction(){
@@ -226,17 +241,15 @@ void checkCBUSCommandAction(){
       if(cmd == ACON){
         trace.log("Actions", "Event for activation of relay received");
         relay->on();
-        return;
       }
 
       if(cmd == ACOF){
         trace.log("Actions", "Event for deactivation of relay received");
         relay->off();
-        return;
       }
     }
 
-    //Check if event number is mapped to any audio file
+    //Then check if event number is mapped to any audio file
     char * track = config->getAudioByEventNumber(eventNumber);
     if(track){
       if(cmd == ACON){
@@ -257,8 +270,48 @@ void checkCBUSCommandAction(){
   };
  ```
 
- All pretty straightforward and self-explanatory.
+ All pretty straightforward and (hopefully) self-explanatory.
 
+#### Acting on the Push buttons
+
+`checkKeyAction` runs every 500ms. If there's already an activity happening (because the button was already pressed), we do nothing. But if that hadn't happened (signaled by `runningCount == ACTIVITY_IDLE`).
+
+```c++
+  void checkKeysAction(){
+    if(keys->isOn()){
+      trace.log("Actions", "checkKeysAction", "Key pressed");
+      if(runningCount == ACTIVITY_IDLE){  //Action is IDLE, start activity
+        trace.log("Actions", "checkKeysAction", "Activating relay & default audio");
+        relay->on();
+        audio->play(config->getDefaultAudio());
+        runningCount = SEC_TO_TICKS(15);
+      }
+      return;
+    }
+  };
+```
+
+```c++
+  void checkPushButtonActivity(){
+    if(runningCount>0){
+      trace.log("Actions", "checkPushButtonActivity. Activity running", runningCount);
+      runningCount--; //Decrement 1 and keep going
+      return;
+    }
+
+    if(runningCount==0){
+      //Last tick -> disable activity
+      trace.log("Actions", "checkPushButtonActivity", "Activity completed");
+      relay->off();
+      audio->stopPlaying();
+      runningCount = ACTIVITY_IDLE;
+      return;
+    }
+  }
+```
+
+
+---
 
 ### The command line interface. 
 

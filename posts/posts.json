@@ -1016,8 +1016,8 @@
       "trains"
     ],
     "visible": false,
-    "excerpt": "<p>In <a href=\"/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md\">Part I</a>, I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.</p>",
-    "excerptPlain": "In [Part I](/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md), I described the hardware for a CBUS-enabled accessory module designed to animate a model railway brewery—with sound, lights, and motion.",
+    "excerpt": "<p>In <a href=\"/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md\">Part I</a>, I described the hardware for a CBUS-enabled accessory module designed to animate our <a href=\"https://ete-pnw.org\">club</a> model railway brewery—with sound, lights, and motion.</p>",
+    "excerptPlain": "In [Part I](/post/2025-05-02-A-CBUS-Module-for-Model-Railway-accesories.md), I described the hardware for a CBUS-enabled accessory module designed to animate our [club](https://ete-pnw.org) model railway brewery—with sound, lights, and motion.",
     "extension": ".md"
   }
 ]
