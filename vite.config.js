@@ -1,6 +1,9 @@
+import { visualizer } from 'rollup-plugin-visualizer'
 import { defineConfig } from 'vite'
+import Inspect from 'vite-plugin-inspect'
 import react from '@vitejs/plugin-react'
 import generatePostsPlugin from './vite.plugins.generatePosts.js'
+
 
 import fs from 'fs'
 import path from 'path'
@@ -36,8 +39,15 @@ export default defineConfig({
           fs.writeFileSync(path.join(distDir, 'CNAME'), customDomain)
           console.log(`✅ CNAME written: ${customDomain}`)
         }
-      }
-    }
+      },
+    },
+    Inspect(),
+    visualizer({
+      open: true, // auto-open in browser
+      filename: 'dist/stats.html', // or wherever you prefer
+      gzipSize: true,
+      brotliSize: true,
+    })
   ],
   define: {
     global: 'window',
