@@ -4,7 +4,6 @@ title:  "A CBUS Module for Model Railway Accessories – Part II: Software"
 date:   2025-05-31
 categories: cbus trains
 comments: true
-visible: false
 author: Eugenio Pace
 ---
 
@@ -31,14 +30,52 @@ For Arduino based projects I also like implementing a simple command line interf
 
 ## High-Level Architecture
 
-Here’s a rough breakdown of the main components:
+Here’s a rough breakdown of the main components and how they work:
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+sequenceDiagram
+    participant Main
+    participant Scheduler
+    participant Actions
+    participant Keys
+    participant CBUS
+    participant Relay
+    participant Audio
+
+    Main->>Scheduler: schedule(checkKeyAction)
+    Main->>Scheduler: schedule(checkCBUSCommandAction)
+    Main->>Scheduler: schedule(checkPushButtonActivity)
+
+    alt loop()
+      Main->>Scheduler: run()
+
+      alt every 500ms
+        Scheduler->>Actions: checkKeyAction()
+        Actions->>Keys: isOn()
+      
+        alt key == on && activityOn()
+          Actions->>Relay: on()
+          Actions->>Audio: playDefault()
+          Actions->>Actions: runActivity(15 sec)
+        end
+
+        Scheduler->>Actions: checkPushButtonActivity()
+        alt activityOnFor(15 sec)
+          Actions->>Relay: off()
+          Actions->>Audio: stopPlaying()
+        end
+      end
+
+      alt every 1 sec
+        Scheduler->>Actions: checkCBUSCommandAction
+        Actions->>CBUS: getEvent
+      
+        alt event/node == available && event/node mapped to this device
+          Actions->>Relay: on() / off()
+          Actions->>Audio: play(track) / stopPlaying()
+        end
+      end
+    end
 ```
 
 ---
@@ -47,7 +84,7 @@ graph TD;
 
 ### CBUS interface
 
-Implementing the CBUS interface is straightforward, as it is mainly an implementation over CAN. The [Adafruit_MCP2515 library]() takes care of all the low-level details. The module is purely a *consumer* of events, so all it needs to do is check for a new CAN packet. CBUS packets:
+Implementing the CBUS interface is straightforward, as it is mainly an implementation over CAN. The [Adafruit_MCP2515 library](https://github.com/adafruit/Adafruit_MCP2515) takes care of all the low-level details. The module is purely a *consumer* of events, so all it needs to do is check for a new CAN packet. CBUS packets:
 
 ```c++
 typedef struct {
@@ -62,12 +99,12 @@ typedef struct {
 } __attribute__((packed)) CBUSPacket;
 ```
 
-Tehre are only two `opcode`s we respond to:
+There are only two `opcode`s we respond to:
 
-* *`ACON`* (`0x90`) - Accesory ON.
+* *`ACON`* (`0x90`) - Accessory ON.
 * *`ACOF`* (`0x91`) - Accessory OFF. 
 
-Everything else, we discard. The next two bytes are the 16 bits corresponding to the *Node Number* (where the event originates), and the other 2 encode the *Event Number*. CAN packets are max 8 bytes, so the 3 extra ones in the `CBUSPacket`  are just fillers, not used in the ACON/ACOF pair.
+Everything else, we discard. The next two bytes are the 16 bits corresponding to the *Node Number* (where the event originates), and the other 2 encode the *Event Number*. CAN packets are max 8 bytes, so the 3 extra ones in the `CBUSPacket` are just fillers, not used in the ACON/ACOF pair.
 
 With this in mind, the `CBUS` class is very simple:
 
@@ -121,7 +158,6 @@ public:
 		int packetLength = mcp.parsePacket();
 		*nodeNumber = *eventNumber = 0;
 
-
 		trace.log("CBUS", "Rx packet:", packetLength);
 		
 		//No message
@@ -161,6 +197,7 @@ public:
 
 > As you will see later, the main loop calls `getEvent` repeatedly (polling), instead of using interrupts. I tried with interrupts, but I think there was some interference with other modules I couldn't figure out. Because the CPU is way faster than the CAN bus, I think the polling approach is good enough.
 
+The CBUS baud rate is 125Kbps. Somewhat modest given these chips can handle much more (I tested with 1 Mbps). But that is the standard.
 
 ### CBUS Configuration
 
@@ -183,17 +220,19 @@ RELAY_EN=3
 steam=8
 
 # "Default" soundtrack to play (when the push button is pressed)
-002=-1
+002=0
 
 ```
 
 When the board boots, it first reads the file and stores this information in memory. Then, as events arrive, we just check if it matches any combination. In the example, any event coming with a *node number* (**NN**) different from `128` is ignored. If the *node number* is correct, and the *event number* is *3*, then we address the relay. Then we check if the event number match any sound tracks to play.
 
-> CBUS has a multiple ways of bootstrapping configuration, including one that puts the device in _"learning mode"_, much like universal remote controls. In our cause, I thought editing this file was straightforward so I opted out of this mode. In the future, we might want top consider a more sophisticated approach.
+The *default* sound track plays only when the button is pressed. It is signaled with a convention event number equal to `0`. 
+
+> CBUS has a multiple ways of bootstrapping configuration, including one that puts the device in _"learning mode"_, much like universal remote controls for TVs. In our case, I thought editing this file was straightforward so I opted out of this mode. In the future, we might want to consider a more sophisticated approach.
 
 Also note that a single event can trigger *both* the relay and a specific sound track.
 
-In my implementation, the track name is really a shortcut to a file stored in the SD card. _"001"_ maps to _"001.mp3"_. Adding the extension is automatically handled.
+In my implementation, the track name is really a shortcut to a file stored in the SD card. By convention, _"001"_ maps to a _"001.mp3"_ file stored in the SD card. Adding the extension is automatically handled.
 
 
 ### The task manager
@@ -207,7 +246,7 @@ The module needs to periodically check for:
 
 I could simply check for either in the main `loop` function, but I built [a simple scheduler I described some time ago](/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino.md), that allows me to call functions on some predefined time. The thinking is that over time we might want to add some automated scheduling of actions _autonomously_ (e.g. turn on lights/play sound every 15 minutes), or event _send_ an event ourselves. The implementation evolved over time and I both simplified it, and made it a little bit more powerful.
 
-In this case, these 2 actions run every second (which seems enough):
+In this case, these actions run every second and 1/2 second:
 
 ```c++
   dispatcher.add("CBUS", "Looks for CBUS Commands", &Actions::checkCBUSCommandAction, SEC_TO_TICKS(1));
@@ -215,11 +254,11 @@ In this case, these 2 actions run every second (which seems enough):
   dispatcher.add("ACTI", "Checks module activity", &Actions::checkPushButtonActivity, HALF_SECOND);
 ```
 
-Every second, we check for CBUS commands that might have been sent. Every 1/2 second we check the button is pressed, and when it had been pressed we check whether we need to shut it down.
+Every second, we check for CBUS commands that might have been sent. Every 1/2 second we check whether the button is pressed. The last action keeps track of how long the activity needs to run. When a visitor presses the button, we want the motors and sound to be active for 15 seconds. `&Actions::checkPushButtonActivity` keep track of this, and shuts everything down when the time elapses.
 
-#### Checking for CBUS commands
+#### Activating Relay and Sound with CBUS commands
 
-The `checkCBUSCommandAction`:
+The `checkCBUSCommandAction` (running every second):
 
 ```c++
 void checkCBUSCommandAction(){
@@ -265,7 +304,7 @@ void checkCBUSCommandAction(){
     }
 
     // The event comes from a recognized node, but it is not mapped to any action here
-    trace.log("Actions", "Unmapped event: ", eventNumber);
+    trace.log("Actions", "Un mapped event: ", eventNumber);
     return;
   };
  ```
@@ -274,7 +313,7 @@ void checkCBUSCommandAction(){
 
 #### Acting on the Push buttons
 
-`checkKeyAction` runs every 500ms. If there's already an activity happening (because the button was already pressed), we do nothing. But if that hadn't happened (signaled by `runningCount == ACTIVITY_IDLE`).
+`checkKeyAction` runs every 500ms. If there's already an activity happening (because the button was already pressed), we do nothing. But if that hadn't happened (signaled by `runningCount == ACTIVITY_IDLE`), we turn on the relay, and we start playing the default sound track. At the same time, we start the counter to keep track of 15 seconds.
 
 ```c++
   void checkKeysAction(){
@@ -290,6 +329,8 @@ void checkCBUSCommandAction(){
     }
   };
 ```
+
+The `checkPushButtonActivity` also runs every 500ms, it decrements the counter until 15 seconds elapse. When that happens, it turns everything off and returns the counter back to `ACTIVITY_IDLE` so it is ready for the next button press:
 
 ```c++
   void checkPushButtonActivity(){
@@ -310,14 +351,13 @@ void checkCBUSCommandAction(){
   }
 ```
 
-
 ---
 
 ### The command line interface. 
 
 While connected to a computer via the `Serial` interface (USB connection), we can monitor all logs (notice the `trace.log()` calls generously sprinkled throughout) and we can also issue commands. 
 
-I implemented a bunch of utility commands to check various features of the board. Here are a few:
+I implemented a few utility commands to check various features of the board. Here are some:
 
 | Command  |  Description		|
 |----------|--------------------|
@@ -327,6 +367,7 @@ I implemented a bunch of utility commands to check various features of the board
 |audio| Lists audio files, plays them|
 |relay| Turn relay on/off |
 
+When typing `cbus` on the terminal you will see this output:
 
 ```sh
 > cbus
@@ -337,6 +378,13 @@ Event [4] mapped to track [001]
 Event [5] mapped to track [002]
 Event [7] mapped to track [003]
 Event [8] mapped to track [steam]
+Event [0] mapped to track [001] - Default
 ```
 
-###
+---
+
+## Miscellaneous / Conclusion 
+
+I can see many opportunities for improvements and new features. But before digging into them, I would like to see it perform in the real world. _No plan survives first contact with the enemy_. 
+
+It was fun to work on this module and I can't wait to see it in action once our layout module is complete and we get to use it in our next exhibition!
