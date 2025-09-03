@@ -105,7 +105,7 @@ So, an **ACON** command from node **128** and event *1* will activate the relay 
 
 ### Power Supply
 
-The last component is power. Our layout has 19V DC available everywhere (which provides enough power while remaining safe for everyone and everything). All I need is a converter from 19V to 5V, plugged into the micro-USB connector of the *Feather M0*. I’ve used this board before with success:
+The last component is power. Our layout has 19V DC available everywhere (which provides enough power while remaining safe for everyone and everything). All I need is a converter from 19V to 5V, plugged into the micro-USB connector of the *Feather M0*. I’ve used boards like this one before with success. They are cheap and effective:
 
 ![](/media/power-19v-5v.png)
 
