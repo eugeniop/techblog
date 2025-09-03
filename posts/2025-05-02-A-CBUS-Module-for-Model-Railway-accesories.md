@@ -17,7 +17,7 @@ A fellow club member mentioned the excellent [BBC Sound Effects Library](https:/
 
 > Before using BBC clips, make sure to review their licensing terms.
 
-I’ve had good results with the [Adafruit VS1053 audio board](https://www.adafruit.com/product/1381), so sound playback was the easy part. Adafruit also makes a handy relay “shield.” With both boards, I had the basic components needed to animate the brewery.
+I’ve had good results with the [Adafruit VS1053 audio board](https://www.adafruit.com/product/1381), so sound playback was the easy part. Adafruit also makes a handy "relay shield." With both boards, I had the basic components needed to animate the brewery.
 
 In addition to the push button, we also wanted to activate everything remotely, integrating into the layout automation that our resident electronics expert, Jan, has been working on. He introduced me to the [CBUS specification](https://www.merg.org.uk/resources/cbus2) from [MERG](https://www.merg.org.uk), which, fortunately, is based on a standard communications protocol: CAN. I picked up an Adafruit CAN controller and added it to the mix. CBUS allows us to control the module centrally—while still supporting local button presses.
 
@@ -61,13 +61,13 @@ The flexibility of the Cortex M0 makes pin assignments easy—most pins support 
 
 The VS1053 board includes a built-in amplifier, so connecting speakers is straightforward—just keep within spec: 4–8Ω, 3W. This should be enough for this application.
 
-It supports synchronous operation, but background playback via hardware interrupt is much smoother. The [Adafruit library](https://github.com/adafruit/Adafruit_VS1053_Library) handles this well. Since SD card access during sound playback can be tricky, I simply disable SD access while audio is active.
+It supports synchronous operation, but background playback via a hardware interrupt is much smoother. While sounds are playing, you canhave the board respond to other commands or inputs. The [Adafruit library](https://github.com/adafruit/Adafruit_VS1053_Library) handles this well. Since SD card access during sound playback can be tricky, I simply disable SD access while audio is active.
 
 ---
 
 ### CAN Wiring and the CBUS Specification
 
-CAN is a 3-wire bus, designed for long-distance, noisy environments. It’s common in industrial and automotive settings, and not surprisingly, it's used for layout automation as well.
+CAN is a 3-wire bus, designed for long-distance, electrically noisy environments. It’s common in industrial and automotive settings, and not surprisingly, it's used for layout automation as well.
 
 > *OBD-II*—the standard for car diagnostics—is built on CAN.
 
@@ -79,7 +79,7 @@ Their documentation is excellent and worth reading.
 
 In CBUS, systems are made up of *producers* and *consumers* of events. Events originate from a *node*, and both nodes and events are identified by 16-bit numbers—allowing up to 65,535 nodes and 65,535 events per node, which translates into over 4 billion combinations...enough for a very complex configuration and lots and lots of accessories. What each event means is up to the consumer.
 
-Accessory control (like lights, motors, sounds) is done with two CBUS commands: *ACON* (activate) and *ACOF* (deactivate), using this format:
+Accessory control (like lights, motors, sounds) is done with two CBUS commands: *ACON* (**Ac**cessory **On**) and *ACOF* (**Ac**cessory **Of**f), using this format:
 
 | Byte 1 | Bytes 2–3            | Bytes 4–5            |
 |--------|----------------------|----------------------|
@@ -99,14 +99,16 @@ Example:
 | 128         | 2            | steam.mp3     |
 | 128         | 3            | bottling.mp3  |
 
+So, an **ACON** command from node **128** and event *1* will activate the relay and as a consequence, whatever is connected to it: lights, motors, etc. And and **ACON** command from node **128** and event *2* will play the **steam.mp3** file. 
+
 ---
 
 ### Power Supply
 
 The last component is power. Our layout has 19V DC available everywhere (which provides enough power while remaining safe for everyone and everything). All I need is a converter from 19V to 5V, plugged into the micro-USB connector of the *Feather M0*. I’ve used this board before with success:
 
-![]()
+![](/media/power-19v-5v.png)
 
 ---
 
-In **Part II**, I’ll cover the software architecture that brings it all to life.
+In **[Part II](/post/2025-05-09-A-CBUS-Module-for-Model-Railway-accesories-part-ii.md)**, I’ll cover the software architecture that brings it all to life.

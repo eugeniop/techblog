@@ -17,14 +17,14 @@ In this post, I’ll go through the software that ties everything together.
 
 Let’s recap what the software needs to do:
 
-- Respond to CBUS *ACON/ACOF* messages and activate/deactivate outputs accordingly.
+- Respond to CBUS **ACON/ACOF** messages and activate/deactivate outputs accordingly.
 - Activate a relay to power motors and lights.
 - Play audio clips from an SD card.
 - Activate the same from a local push button on the edges of the layout.
 - Ensure reliable behavior across power cycles and long sessions.
 - Provide debug/log output for testing.
 
-For Arduino based projects I also like implementing a simple command line interface to run various diagnostics tasks. Usually, this would normally be plugged to the computer serial port (or Serial over USB as it is more common for modern boards).
+For Arduino based projects I also like implementing a simple command line interface to run various diagnostics tasks. Usually, this would normally be plugged to the computer's serial port (or Serial over USB as it is more common for modern boards).
 
 ---
 
@@ -84,7 +84,7 @@ sequenceDiagram
 
 ### CBUS interface
 
-Implementing the CBUS interface is straightforward, as it is mainly an implementation over CAN. The [Adafruit_MCP2515 library](https://github.com/adafruit/Adafruit_MCP2515) takes care of all the low-level details. The module is purely a *consumer* of events, so all it needs to do is check for a new CAN packet. CBUS packets:
+Implementing the CBUS interface is straightforward, as it is mainly an implementation over CAN. The [Adafruit_MCP2515 library](https://github.com/adafruit/Adafruit_MCP2515) takes care of all the low-level details. The module is purely a *consumer* of events, so all it needs to do is check for a new CAN packet available. CBUS packets look like this:
 
 ```c++
 typedef struct {
@@ -104,7 +104,7 @@ There are only two `opcode`s we respond to:
 * *`ACON`* (`0x90`) - Accessory ON.
 * *`ACOF`* (`0x91`) - Accessory OFF. 
 
-Everything else, we discard. The next two bytes are the 16 bits corresponding to the *Node Number* (where the event originates), and the other 2 encode the *Event Number*. CAN packets are max 8 bytes, so the 3 extra ones in the `CBUSPacket` are just fillers, not used in the ACON/ACOF pair.
+Everything else, we discard. The next two bytes are the 16 bits corresponding to the **Node Number** (where the event originates from), and the other 2 encode the **Event Number**. CAN packets are max 8 bytes, so the 3 extra ones in the `CBUSPacket` structure are just fillers, not used in the **ACON/ACOF** pair.
 
 With this in mind, the `CBUS` class is very simple:
 
@@ -195,13 +195,13 @@ public:
 #endif
 ```
 
-> As you will see later, the main loop calls `getEvent` repeatedly (polling), instead of using interrupts. I tried with interrupts, but I think there was some interference with other modules I couldn't figure out. Because the CPU is way faster than the CAN bus, I think the polling approach is good enough.
+> As you will see later, the main loop calls `getEvent` repeatedly (polling), instead of using interrupts. I tried using interrupts, but I think there was some interference with other modules I couldn't figure out. Because the CPU is way faster than the CAN bus, I think the polling approach is good enough.
 
-The CBUS baud rate is 125Kbps. Somewhat modest given these chips can handle much more (I tested with 1 Mbps). But that is the standard.
+The CBUS baud rate is 125Kbps. Somewhat modest given these chips can handle much more (I tested with 1 Mbps), but that is the standard and if you want to interoperate with other modules you will have to use this speed.
 
 ### CBUS Configuration
 
-Because I wanted to be able to configure the module to respond to arbitrary events, and because I have plenty of storage available, I opted for encoding `event -> actions` mappings in a file (`CBCFG.TXT`) with the following (hopefully self-explanatory) format:
+Because I wanted to be able to configure the module to respond to arbitrary events, and because I have plenty of storage available, I opted for encoding an `event -> actions` mappings in a file (`CBCFG.TXT`) with the following (hopefully self-explanatory) format:
 
 ```sh
 # Node Number the module will listen to
@@ -224,7 +224,7 @@ steam=8
 
 ```
 
-When the board boots, it first reads the file and stores this information in memory. Then, as events arrive, we just check if it matches any combination. In the example, any event coming with a *node number* (**NN**) different from `128` is ignored. If the *node number* is correct, and the *event number* is *3*, then we address the relay. Then we check if the event number match any sound tracks to play.
+When the board boots, it first reads the file and stores this information in memory. Then, as events arrive, it just checks if it matches any combination. In the example, any event coming with a *node number* (**NN**) different from `128` is ignored. If the **node number** is correct, and the **event number** is **3**, then we address the relay. After that we check if the event number matches any sound tracks to play.
 
 The *default* sound track plays only when the button is pressed. It is signaled with a convention event number equal to `0`. 
 
@@ -234,17 +234,18 @@ Also note that a single event can trigger *both* the relay and a specific sound 
 
 In my implementation, the track name is really a shortcut to a file stored in the SD card. By convention, _"001"_ maps to a _"001.mp3"_ file stored in the SD card. Adding the extension is automatically handled.
 
+---
 
 ### The task manager
 
 The module needs to periodically check for:
 
 1. CBUS commands
-2. Any button presses
-3. If the button is pressed, check when to shutdown the activity (in this case, by a predefined amount of time)
-3. Commands from the terminal
+2. Any button that is pressed
+3. If a button has been pressed, check when to shutdown the activity (in this case, by a predefined amount of time)
+3. Commands sent from the terminal
 
-I could simply check for either in the main `loop` function, but I built [a simple scheduler I described some time ago](/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino.md), that allows me to call functions on some predefined time. The thinking is that over time we might want to add some automated scheduling of actions _autonomously_ (e.g. turn on lights/play sound every 15 minutes), or event _send_ an event ourselves. The implementation evolved over time and I both simplified it, and made it a little bit more powerful.
+I could simply check for either in the main `loop` function, but I built [a simple scheduler I described some time ago](/post/2020-03-28-A-Very-Simple-Task-Scheduler-on-Arduino.md), that allows me to call functions on some predefined time. The thinking is that over time we might want to add some automated scheduling of actions (e.g. turn on lights/play sound every 15 minutes), or even _send_ an event ourselves. The implementation evolved over time and I both simplified it, and made it a little bit more powerful.
 
 In this case, these actions run every second and 1/2 second:
 
@@ -290,6 +291,13 @@ void checkCBUSCommandAction(){
 
     //Then check if event number is mapped to any audio file
     char * track = config->getAudioByEventNumber(eventNumber);
+
+    if(!track){
+      // The event comes from a recognized node, but it is not mapped to any action here
+      trace.log("Actions", "No audio files mapped to event: ", eventNumber);
+      return;
+    }
+
     if(track){
       if(cmd == ACON){
         trace.log("Actions", "Event for activation of audio received");
@@ -302,10 +310,6 @@ void checkCBUSCommandAction(){
         return;
       }
     }
-
-    // The event comes from a recognized node, but it is not mapped to any action here
-    trace.log("Actions", "Un mapped event: ", eventNumber);
-    return;
   };
  ```
 
